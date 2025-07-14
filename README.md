@@ -1,8 +1,8 @@
-# Heading 1
+# Mow and More
 
 [link to final deployed website](url)
 
-project aims
+A static website to promote the work of a small gardening/outside maintenance service with the overall aim of increasing bookings and gaining more clients.  As one-man business based in a middle class residential area with a high proportion of older adults, the key strengths that the website needs to convey are a local, friendly, trustworthy
 
 ![alt text](url_image "image name")
 
@@ -12,7 +12,15 @@ Use a TOC generator here.
 
 ## User Goals
 
-* list
+* A potential customer is looking on the internet to find someone reliable and skilled who has the correct tools and knowlegde to take care of the garden or outside property maintenance tasks which they are either no longer able to do or don't have the time/desire to do.
+* Things the website user wants to know about the business:
+    * The range of services offered: can they get their grass cut? What about hedges or pressure washing the patio?
+    * Will the job be done well?  
+    * Can I trust this person in my home?  What do other people say about the quality of work?
+    * How long to jobs take and how much does it cost?
+    * Do you cover my area and what days of the week/hours of the day do you work?
+    * How to get in touch and book a visit. 
+
 
 ## User Stories
 
@@ -20,11 +28,18 @@ Use a TOC generator here.
 
 ## Website Goals and Objectives
 
-* list
+A static website to promote the work of a small gardening/outside maintenance service with the overall aim of increasing bookings and gaining more clients.  As one-man business based in a middle class residential area with a high proportion of older adults, the key strengths that the website needs to convey are a local, friendly, trustworthy. Potential customers need to feel comfortable and confident letting someone into their property.
+
 
 ## Target Audience
 
-* list
+Based in a middle class residential area with a high proportion of older adults the target audience fits into two main categories:
+
+* Elderly or infirm people living in their own property who want to enjoy their outside space but are unable to manage the upkeep of it all themselves.
+    * Contact may also come from children or carers/friends of these individuals.
+* Families and individuals of working age who enjoy the garden but work all week and don't have time or the inclination to look after it.  As well as routine upkeep, this group may also be interested in:
+    * Holiday garden care: to keep on top of the grass, water plants etc to make sure everything is nice for when they return.
+    * Pre-house sale tidy-ups to make sure the property looks its best for estate agent photos.
 
 [Back to top](#heading-1)
 
@@ -79,6 +94,20 @@ text. Explain using Bootstrap media break points.
 ## Features
 
 ### Existing Features
+
+Home Page
+
+* Nav bar
+* Hero section
+* About section (include area)
+* Services section (include here approx pricing- don't give pricing it's own section as the business is based on quotation per job)
+* Gallery or testimonials
+* Get a quote (and what happens next)
+* Footer: social media links, professional acreditation, 
+
+Success Page - for when the contact form is completed.
+
+
 #### Header
 
 text
