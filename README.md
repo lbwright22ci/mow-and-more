@@ -256,9 +256,28 @@ Add in here tests using [W3C CSS Validator](https://jigsaw.w3.org/css-validator/
 
 ### User Story Testing
 
-|**User Story|Acceptance criteria|Screenshot**|
-|---|---|---|---|
-|story 1|kjl|[name for screenshot](url-link-to-pdf)|
+|**User Story**|**Acceptance criteria**|**Screenshot**|
+|---|---|---|
+|Easy navigation and responsive design to the website| [ ] Logical navigation to access all sections and pages of the website and locate key information.|[name for screenshot](url-link-to-pdf)|
+|| [ ] Website is responsive on all devices (mobile, tablet and laptop).||
+|   | [ ] Browser favicon for branding. |   |
+|Key benefits of using the service| [ ] Hero section to the main page with eye catching image and text|[name for screenshot](url-link-to-pdf)|
+| | [ ] Easy to read bullet point or short text statements which highlight the key features which set this business apart from others| |
+| | [ ] Due to aiming at 'local' and 'older adult' customers a photo of the gardener and making the user feel like they know the person who will be doing the job will inspire confidence| |
+|Business information| [ ] Clearly stated the postcodes or geographical areas covered|[name for screenshot](url-link-to-pdf)|
+| | [ ] Clearly stated business hours (Mon-Fri 8 am - 5 pm)| |
+|Engaging descriptions of the services offered| [ ] kjl|[name for screenshot](url-link-to-pdf)|
+|High quality images of the services offered| [ ] High quality images used across the site.|[name for screenshot](url-link-to-pdf)|
+| | [ ] Links to social media profiles which will display photos of current or recent jobs.| |
+|Estimated pricing| [ ] kjl|[name for screenshot](url-link-to-pdf)|
+|Testimonials from past customers| [ ] kjl|[name for screenshot](url-link-to-pdf)|
+|Inquiry form to get a quote for my garden| [ ] kjl|[name for screenshot](url-link-to-pdf)|
+|Alternative methods of communication| [ ] Direct contact email address and phone number located in website footer (standard location)|[name for screenshot](url-link-to-pdf)|
+| | [ ] Radio button required field for the inquiry form which allows potential customers to toggle between an email reply to book a quote and a phone call reply| |
+|Keeping up-to-date with current projects and offers| [ ] Social media links found in the footer of the website (standard location)|[name for screenshot](url-link-to-pdf)|
+| | [ ] Pop up modal in the website footer for users to subscribe to a newsletter| |
+|Professional accreditation and certification| [ ] Accreditation badges with links to relevant sites along with logos of significant products used (with links) found in the footer of the website (standard location)|[name for screenshot](url-link-to-pdf)|
+|What happens next| [ ] Above the inquiry form (and on the form submission 'Success Page') a simple step guide of what a customer is to expect (1. complete form, 2. email or phone call back to arrange a time to meet and assess for a quote, 3. get a quote and set a time for the job to be done, 4. Job done; can cancel or rearrange at any point.)|[name for screenshot](url-link-to-pdf)|
 
 [Back to top](#heading-1)
 
