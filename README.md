@@ -73,7 +73,7 @@ The vast majority of residents are homeowners with very few rental properties.  
 
 
 
-[Back to top](#heading-1)
+[Back to top](#mow-and-more)
 
 ## Wireframes
 
@@ -85,11 +85,13 @@ text- include here that the wireframes were generated using Balsamic and that de
 
 [Desktop Wireframes](link-to-pdf)
 
-[Back to Top](#heading-1)
+[Back to Top](#mow-and-more)
 
 ## Design Choices
 
 ### Typography
+
+* Use of sentence case titles and headings (rather than capitalised or uppercase text) to give the page a more friendly appeal.
 
 ### Colour Scheme
 Why colours where chosen
@@ -323,6 +325,9 @@ Link to PDF for manually testing on different browsers and device sizes.
 
 * Support and guidance
     * [Simen Daehlin]()
+
+* Text for website generated in part using ChatGPT
+    *[ChatGPT suggested text](.docs-for-readme/design/ChatGPT_text_for_website_suggestions.pdf)
 
 * Images
 
