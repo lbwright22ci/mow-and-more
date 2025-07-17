@@ -1,0 +1,52 @@
+/* Font used on project downloaded from Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@400;600;700&family=Poppins:wght@400;700;800&family=Trirong:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap')
+
+
+/*Variables*/
+
+:root {
+    --primary-font: "Hind", sans-serif;
+    --secondary-font: "Poppins", sans-serif;
+    --quotation-text: "Trirong", sans-serif;
+
+}
+
+/*Generic style rules*/
+
+/*Nav bar style rules*/
+
+/*Hero image style rules*/
+
+/*About section style rules*/
+
+/*Service section style rules*/
+
+/*Testimonials section style rules*/
+
+/*Contact form section style rules*/
+
+/*Footer style rules*/
+
+/*Media queries*/
+/*small screens: 578px and up*/
+@media screen and (min-width: 576px) {
+}
+
+/*medium screens: tablets (768px and above)*/
+@media screen and (min-width:768px){
+}
+
+/*large screens 992px*/
+@media screen and (min-width:992px){
+}
+
+/*extra large screens: 1200 px and above*/
+@media  screen and (min-width:1200px) {
+}
+
+/*extra extra large screens: 1400 px and above*/
+@media  screen and (min-width:1400px) {
+}
+
+
+/*testing and set up style rules to delete at the end*/
