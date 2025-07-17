@@ -79,11 +79,9 @@ The vast majority of residents are homeowners with very few rental properties.  
 
 text- include here that the wireframes were generated using Balsamic and that designed with mobile first (following best practices)
 
-[Mobile Wireframes](link-to-pdf)
+[Wireframes for main page (all sections) on mobile, tablet and laptop](.docs-for-readme/design/main_page_wireframe.pdf)
 
-[Tablet Wireframes](link-to-pdf)
-
-[Desktop Wireframes](link-to-pdf)
+[Wireframes for form success page (all sections) on mobile, tablet and laptop](.docs-for-readme/design/success_page_wireframe.pdf)
 
 [Back to Top](#mow-and-more)
 
@@ -91,7 +89,21 @@ text- include here that the wireframes were generated using Balsamic and that de
 
 ### Typography
 
-* Use of sentence case titles and headings (rather than capitalised or uppercase text) to give the page a more friendly appeal.
+* A heading font of Poppins (Bold 700 and Bold 800) was chosen specifically with the target audience of the website in mind: an easy to read font, professional in appearance and neat & tidy (like the gardening service). It is also a relatively commonly used font.  With a high proportion of potential users being older adults, having a common font makes the site more approachable.
+* The [Font Pair](https://www.fontpair.co/all) tool was used to guide a font to be used alongside Poppins for body text: Hind (regular 400, semi bold 600).
+* For contrast and a more 'familar look' to the quotation text, the font Trirong was choosen with the aid of [Font Joy](https://fontjoy.com/#).
+
+Further typography styling rules for site consistency:
+
+|Text type | Bootstrap display level | Font Family | Font decoration/ styling/ weight | Colour | Notes |
+|---|---|---|---|---|---|
+|Sub Headings|Display 3|Poppins| bold|colour|Use of sentence case titles and headings (rather than capitalised or uppercase text) to give the page a more friendly appeal.|
+|Service Headings|Display ?|Poppins| bold|colour| |
+|Quotes from gardener| | Trirong| | | |
+|Testimonial quotes| | Trirong| | | |
+|Paragraph text| |Hind| regular|| |
+
+
 
 ### Colour Scheme
 Why colours where chosen
@@ -205,6 +217,8 @@ text
 * [Autoprefixer CSS online](https://autoprefixer.github.io/)
 * [Font Awesome](https://fontawesome.com/)
 * [Bootstrap v5.3.7](https://getbootstrap.com/)
+* [Font Pair](https://www.fontpair.co/all)
+* [Font Joy](https://fontjoy.com/#)
 * Am I responsive
 * Responsive Design Checker
 * WAVE Accessibility Tool
