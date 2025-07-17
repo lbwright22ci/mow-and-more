@@ -108,9 +108,9 @@ Further typography styling rules for site consistency:
 ### Colour Scheme
 Why colours where chosen
 
-![alt text](colour-scheme-image "image name")
+![alt text](.docs-for-readme/design/garden.png "Hex codes for website colour palette")
 
-[Contrast grid](https://contrast-grid.eightshapes.com/ ) checker.
+[Contrast grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=F7F8F8%0D%0A272A26%0D%0A394F00%0D%0A83A725%0D%0AE1EEC0%0D%0A78421F&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa) checker.
 
 ![alt text](contrast-grid-image "contrast grid validation")
 
@@ -122,6 +122,31 @@ Table for colour variants used in code
 
 ### Images
 inlude links to where these were sourced from or created.  And why they were chosen.
+
+* Lawn mowing image by [Rudy and Peter Skitterians](https://pixabay.com/users/clickerhappy-324082/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=384589") from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=384589)
+* Weeding image by [Couleur](https://pixabay.com/users/couleur-1195798/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3296781) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=384589)
+* Hedge and bush cutting image by [Alexa](https://pixabay.com/users/alexas_fotos-686414/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=972972) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=384589)
+* Pressure washing image by https://stock.adobe.com/uk/contributor/200738455/tomasz-zajda
+* Patio with chairs and flowers image by [PublicDomainPictures](https://pixabay.com/users/publicdomainpictures-14/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=219900) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=384589)
+* Patio with chairs image by [VariousPhotography](https://pixabay.com/users/variousphotography-1860391/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1596548) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=384589)
+
+Testimonial images
+* nice garden https://stock.adobe.com/uk/contributor/205867852/oceane2508
+* patio and lawn nice https://stock.adobe.com/uk/contributor/207792586/jennifer-j-taylor
+* Wheel barrow image by [andreas160578](https://pixabay.com/users/andreas160578-2383079/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2157324)
+* House and lawn image by [Barry D](https://pixabay.com/users/midascode-2412635/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2826052)
+* lawn and chairs photo by Photo by Torsten Dettlaff: https://www.pexels.com/photo/round-brown-wooden-5-piece-dining-set-on-lawn-grass-59321/
+* Digging photo by Photo by Lukas: https://www.pexels.com/photo/brown-shovel-296232/
+* hand hedgecutting Photo by Anna Shvets: https://www.pexels.com/photo/close-up-shot-of-a-person-using-shears-to-trim-leaves-5027619/
+* lawn photo Photo by Matthias Cooper: https://www.pexels.com/photo/macro-shot-of-grass-field-580900/
+* outside of house with lawn Photo by Bilal Mansuri: https://www.pexels.com/photo/cgi-black-white-villa-13203194/
+* lawn and flowers Photo by Alex Ohan: https://www.pexels.com/photo/vibrant-spring-tulip-garden-in-toronto-park-32307991/
+* gardener in orange shit Photo by Anna Shvets: https://www.pexels.com/photo/bearded-man-in-plaid-long-sleeves-holding-a-black-plastic-pot-5029926/
+* gardener in red Photo by Bryan Vong: https://www.pexels.com/photo/man-wearing-red-shirt-and-eyeglasses-1222372/
+* house and garden Photo by Pixabay: https://www.pexels.com/photo/brown-brick-house-beside-trees-259593/
+* window flowers Photo by Mike Bird: https://www.pexels.com/photo/red-yellow-and-purple-flower-on-window-120173/
+* patio and wooden chairs Photo by Marianne: https://www.pexels.com/photo/white-plates-on-table-238377/
+
 
 ### Responsiveness
 text. Explain using Bootstrap media break points.
