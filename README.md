@@ -77,11 +77,13 @@ The vast majority of residents are homeowners with very few rental properties.  
 
 ## Wireframes
 
-text- include here that the wireframes were generated using Balsamic and that designed with mobile first (following best practices)
+Wireframes for the site were created using [Balsamiq](https://balsamiq.com/).  In accordance with industry standards and best practices, the site was designed with a 'mobile-first' appoach.  The design of a single, scrollable page aimed keep the user interested and gradually provide them with the information they need in a prioritised manner, minimises the number of 'click' steps necessary between landing on the site and submitting an inquiry form (the desired outcome).  Navigation in a fixed header at the top of the page will allow those who decide they want to book immediately to jump to this point on the page.
 
-[Wireframes for main page (all sections) on mobile, tablet and laptop](.docs-for-readme/design/main_page_wireframe.pdf)
+Wireframes for tablet and laptop screens utilise the extra screen space available in comparison to mobile devices.
 
-[Wireframes for form success page (all sections) on mobile, tablet and laptop](.docs-for-readme/design/success_page_wireframe.pdf)
+[Evolutionary wireframes for main page (all sections) on mobile, tablet and laptop](.docs-for-readme/design/main_page_wireframe.pdf)
+
+[Evolutionaru wireframes for form success page (all sections) on mobile, tablet and laptop](.docs-for-readme/design/success_page_wireframe.pdf)
 
 [Back to Top](#mow-and-more)
 
@@ -89,7 +91,7 @@ text- include here that the wireframes were generated using Balsamic and that de
 
 ### Typography
 
-* A heading font of Poppins (Bold 700 and Bold 800) was chosen specifically with the target audience of the website in mind: an easy to read font, professional in appearance and neat & tidy (like the gardening service). It is also a relatively commonly used font.  With a high proportion of potential users being older adults, having a common font makes the site more approachable.
+* A heading font of Poppins (Bold 700 and Bold 800) was chosen specifically with the target audience of the website in mind: an easy to read font, professional in appearance and neat & tidy (like the gardening service). It is also a relatively commonly used font.  With a high proportion of potential users being older adults, having a common, recognisable font makes the site more approachable.
 * The [Font Pair](https://www.fontpair.co/all) tool was used to guide a font to be used alongside Poppins for body text: Hind (regular 400, semi bold 600).
 * For contrast and a more 'familar look' to the quotation text, the font Trirong was choosen with the aid of [Font Joy](https://fontjoy.com/#).
 
@@ -173,7 +175,7 @@ text. Explain using Bootstrap media break points.
 |X-Large|`xl`|&ge;1200px|
 |xx-Large|`xxl`|&ge;1400px|
 
-[Back to top](#heading-1)
+[Back to top](#mow-and-more)
 
 ## Features
 
@@ -200,7 +202,7 @@ text
 ![alt text](url-image "image name")
 </details>
 
-[Back to top](#heading-1)
+[Back to top](#mow-and-more)
 
 #### home page
 
@@ -215,7 +217,7 @@ text
 ![alt text](url-image "image name")
 </details>
 
-[Back to top](#heading-1)
+[Back to top](#mow-and-more)
 
 #### Footer
 text
@@ -224,13 +226,13 @@ text
 ![alt text](url-image "image name")
 </details>
 
-[Back to top](#heading-1)
+[Back to top](#mow-and-more)
 
 ### Future Enhancements
 
 * list
 
-[Back to top](#heading-1)
+[Back to top](#mow-and-more)
 
 ## Technologies Used
 
@@ -270,7 +272,7 @@ text
 
 
 
-[Back to top](#heading-1)
+[Back to top](#mow-and-more)
 
 ## Testing
 
@@ -282,7 +284,7 @@ text
 |---|---|---|---|
 |bug one| fixed| what it is| how it was fixed|
 
-[Back to top](#heading-1)
+[Back to top](#mow-and-more)
 
 ### Responsiveness Tests
 
@@ -294,7 +296,7 @@ Final Test Results
 |---|---|---|---|---|---|---|
 |sm|Samsung Galaxy98|Good|Good|Good|Good|any notes|
 
-[Back to top](#heading-1)
+[Back to top](#mow-and-more)
 
 ### Code Validation
 
@@ -304,7 +306,7 @@ Add in here tests using [W3C HTML Validator](https://validator.w3.org/). One for
 
 ![alt text](url-image "image name")
 
-[Back to top](#heading-1)
+[Back to top](#mow-and-more)
 
 #### CSS
 
@@ -312,7 +314,7 @@ Add in here tests using [W3C CSS Validator](https://jigsaw.w3.org/css-validator/
 
 ![alt text](url-image "image name")
 
-[Back to top](#heading-1)
+[Back to top](#mow-and-more)
 
 ### User Story Testing
 
@@ -339,11 +341,11 @@ Add in here tests using [W3C CSS Validator](https://jigsaw.w3.org/css-validator/
 |Professional accreditation and certification| [ ] Accreditation badges with links to relevant sites along with logos of significant products used (with links) found in the footer of the website (standard location)|[name for screenshot](url-link-to-pdf)|
 |What happens next| [ ] Above the inquiry form (and on the form submission 'Success Page') a simple step guide of what a customer is to expect (1. complete form, 2. email or phone call back to arrange a time to meet and assess for a quote, 3. get a quote and set a time for the job to be done, 4. Job done; can cancel or rearrange at any point.)|[name for screenshot](url-link-to-pdf)|
 
-[Back to top](#heading-1)
+[Back to top](#mow-and-more)
 
 ### Feature Testing 
 
-[Back to top](#heading-1)
+[Back to top](#mow-and-more)
 
 ### Accessibility Testing
 
@@ -352,7 +354,7 @@ WAVE for accessibility for users with diverse needs
 Color Contrast Accessibility validation.
 
 
-[Back to top](#heading-1)
+[Back to top](#mow-and-more)
 
 ### Lighthouse Testing
 
@@ -361,13 +363,13 @@ Color Contrast Accessibility validation.
 * Best Practices
 * SEO 
 
-[Back to top](#heading-1)
+[Back to top](#mow-and-more)
 
 ### Browser testing
  
 Link to PDF for manually testing on different browsers and device sizes.
 
-[Back to top](#heading-1)
+[Back to top](#mow-and-more)
 
 ## Deployment
 
@@ -377,12 +379,12 @@ Link to PDF for manually testing on different browsers and device sizes.
 
 ### To clone the project
 
-[Back to top](#heading-1)
+[Back to top](#mow-and-more)
 
 ## Credits
 
 * Support and guidance
-    * [Simen Daehlin]()
+    * [Simen Daehlin](https://github.com/eventyret)
 
 * Text for website generated in part using ChatGPT
     *[ChatGPT suggested text](.docs-for-readme/design/ChatGPT_text_for_website_suggestions.pdf)
@@ -404,4 +406,4 @@ Link to PDF for manually testing on different browsers and device sizes.
     * [Ashcroft Gardening Services](https://www.ashcroftgardeningservices.co.uk/)
     * [APC Property](https://www.apcproperty.co.uk/)
 
-[Back to top](#heading-1)
+[Back to top](#mow-and-more)
