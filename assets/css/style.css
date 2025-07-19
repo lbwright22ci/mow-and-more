@@ -18,6 +18,8 @@ body{
     font-family: var(--primary-font);
     background-color: var(--primary-background-color);
     color: var(--primary-color);
+    /*push the content down under fixed nav bar*/
+    margin-top:66px;
 }
 
 h1,
@@ -38,6 +40,19 @@ h3{
     height:30px;
     margin-right: 20px;
 }
+
+/*testing and set up style rules to delete at the end*/
+.container,
+.row {
+    border: 2px solid black;
+    background-color: red;
+}
+
+.col-12 {
+    border: 2px solid yellow;
+    background-color: blue;
+}
+
 
 
 /*Nav bar style rules*/
@@ -64,6 +79,11 @@ h3{
 }
 
 /*Hero image style rules*/
+#hero{
+    background: url(../images/hero-front-garden-with-flowers.webp) var(--highlight-color) no-repeat center center/cover fixed;
+    height: 80vh;
+    width:100%;
+}
 
 /*About section style rules*/
 
@@ -104,4 +124,3 @@ h3{
 }
 
 
-/*testing and set up style rules to delete at the end*/
