@@ -91,6 +91,7 @@ Wireframes for tablet and laptop screens utilise the extra screen space availabl
 
 ### Typography
 
+**change to Merriweather (headings) and Poppins for body**
 * A heading font of Poppins (Bold 700 and Bold 800) was chosen specifically with the target audience of the website in mind: an easy to read font, professional in appearance and neat & tidy (like the gardening service). It is also a relatively commonly used font.  With a high proportion of potential users being older adults, having a common, recognisable font makes the site more approachable.
 * The [Font Pair](https://www.fontpair.co/all) tool was used to guide a font to be used alongside Poppins for body text: Hind (regular 400, semi bold 600).
 * For contrast and a more 'familar look' to the quotation text, the font Trirong was choosen with the aid of [Font Joy](https://fontjoy.com/#).
