@@ -76,6 +76,22 @@ h3{
     font-size: 1.5rem;
 }
 
+#navbar .btn-outline-success{
+    color: var(--primary-color);
+    background-color: var(--primary-highlight);
+    border: 2px solid var(--primary-color);
+    margin-left:5px;
+    text-align: center;
+}
+
+#navbar .btn-outline-success:hover{
+    color:var(--primary-highlight);
+    background-color: var(--primary-color);
+    border:2px solid var(--primary-highlight);
+    font-size: 110%;
+    text-decoration: none;
+}
+
 /*Hero image style rules*/
 #hero{
     background: url(../images/hero-front-garden-with-flowers.webp) var(--highlight-color) no-repeat center center/cover fixed;
