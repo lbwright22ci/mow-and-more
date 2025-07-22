@@ -79,23 +79,25 @@
     <!--about section-->
         <section class="section" id="about">
             <div class="container">
-                <div class="row">
-                    <div class="col-12 col-xl-6 mx-auto" id="gardener-portrait">
+                <div class="row justify-content-center mb-3">
+                    <div class="col-12 col-lg-6 mx-auto mb-5 mb-lg-0" id="gardener-portrait">
                     </div>
-                    <div class="col-12 col-xl-6">
-                        <figure>
+                    <div class="col-12 col-lg-6 ">
+                        <figure class="quotes">
                             <blockquote>
-                                <p>"Hi, I'm Bob, the heart and hands behind Mow and More. I provide reliable, friendly and trustworthy gardening and outdoor maintenance services in Solihull (postcodes B91, 92, 93). Whether you're looking for regular help or just need a one-off tidy-up, I'm here to make life a little easier and your home look its best."</p>
+                                <p>"Hi, I'm Bob, welcome to Mow & More. I provide reliable, friendly and trustworthy gardening and outdoor maintenance services in Solihull. Whether you're looking for regular help or just need a one-off tidy-up, I'm here to make life a little easier and your home look its best."</p>
                             </blockquote>
                             <figcaption class="blockquote-footer">
-                                Bob
+                                Bob, <cite title="Mow and More">the heart and hands of Mow & More.</cite>
                             </figcaption>
                         </figure>
                     </div>
-                    <div class="col-12 col-xl-8 ">
+                </div>
+                <div class="row justify-content-center mb-3" id="offer">
+                    <div class="col-12 col-xl-8">
                         <h3> What I can offer...</h3>
                         <ul>
-                            <li>Weeding & General Garden Maintenance: Let me take care of the hard work so you can enjoy your garden.</li>
+                            <li><a href="">Weeding & General Garden Maintenance:</a> Let me take care of the hard work so you can enjoy your garden.</li>
                             <li>Lawn Mowing: Regular or one-off grass cutting to keep your lawn looking neat and tidy.</li>
                             <li>Hedge Trimming: Shaping and tidying hedges to keep them healthy and under control.</li>
                             <li>Patio & Drive Pressure Washing: Remove built-up dirt and bring back the sparkle to your outdoor spaces.</li>
@@ -104,10 +106,45 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 col-xl-6">
-                        Carousel here
+                    <div class="col-12 col-lg-6 mb-5 mb-lg-0">
+                        <!--Carousel of garden images-->
+                        <div id="carouselExampleIndicators" class="carousel slide">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="assets/images/front-of-house.webp" class="d-block w-100" alt="The front of a house with flower basket and driveway">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/images/picket-fence.webp" class="d-block w-100" alt="A picket fence with mowed lawn the other side">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/images/driveway-borders.webp" class="d-block w-100" alt="A block paved driveway with flower bed alongside">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/images/seasonal-border.webp" class="d-block w-100" alt="A well tended flower bed with seasonal plants">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/images/borders.webp" class="d-block w-100" alt="A well tended flower bed with perienal plants">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        
                     </div>
-                    <div class="col-12 col-xl-6">
+                    <div class="col-12 col-lg-6">
                         <h3> Why choose Mow & More?</h3>
                         <ul>
                             <li>Friendly & Local: One-person business with a personal touch</li>
