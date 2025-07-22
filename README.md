@@ -1,6 +1,6 @@
 # Mow and More
 
-[link to final deployed website](url)
+[Mow & More](https://lbwright22ci.github.io/mow-and-more/)
 
 A static website to promote the work of a small gardening/outside maintenance service with the overall aim of increasing bookings and gaining more clients.  As one-man business based in a middle class residential area with a high proportion of older adults, the key strengths that the website needs to convey are a local, friendly, trustworthy
 
