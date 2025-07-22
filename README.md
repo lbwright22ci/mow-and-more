@@ -91,20 +91,17 @@ Wireframes for tablet and laptop screens utilise the extra screen space availabl
 
 ### Typography
 
-**change to Merriweather (headings) and Poppins for body**
-* A heading font of Poppins (Bold 700 and Bold 800) was chosen specifically with the target audience of the website in mind: an easy to read font, professional in appearance and neat & tidy (like the gardening service). It is also a relatively commonly used font.  With a high proportion of potential users being older adults, having a common, recognisable font makes the site more approachable.
-* The [Font Pair](https://www.fontpair.co/all) tool was used to guide a font to be used alongside Poppins for body text: Hind (regular 400, semi bold 600).
-* For contrast and a more 'familar look' to the quotation text, the font Trirong was choosen with the aid of [Font Joy](https://fontjoy.com/#).
+* A heading font of Merriweather was chosen specifically with the target audience of the website in mind: professional and traditional.  With a high proportion of potential users being older adults the 'classic', reliable 'feel' to the site is important.
+* The [Font Pair](https://www.fontpair.co/all) tool was used to guide a font to be used alongside Merriweather for body text: Poppins.
+* Poppins is a commonly used font with high readability, which is important for site accessibility.
 
 Further typography styling rules for site consistency:
 
 |Text type | Bootstrap display level | Font Family | Font decoration/ styling/ weight | Colour | Notes |
 |---|---|---|---|---|---|
-|Sub Headings|Display 3|Poppins| bold|colour|Use of sentence case titles and headings (rather than capitalised or uppercase text) to give the page a more friendly appeal.|
-|Service Headings|Display ?|Poppins| bold|colour| |
-|Quotes from gardener| | Trirong| | | |
-|Testimonial quotes| | Trirong| | | |
-|Paragraph text| |Hind| regular|| |
+|Headings|Display 3|Merriweather| bold| Secondary colour|Use of sentence case titles and headings (rather than capitalised or uppercase text) to give the page a more approachable appeal.|
+|Quotes| paragraphy text| Poppins| italic | Secondary colour| |
+|Paragraph text| |Poppins| regular| Primary colour| |
 
 
 
@@ -259,7 +256,6 @@ text
 * [Font Awesome](https://fontawesome.com/)
 * [Bootstrap v5.3.7](https://getbootstrap.com/)
 * [Font Pair](https://www.fontpair.co/all)
-* [Font Joy](https://fontjoy.com/#)
 * [WebAim Contrast Tool](https://webaim.org/resources/contrastchecker/)
 * [Coolors](https://coolors.co/)
 * [PicFlow](https://picflow.com/)
@@ -406,5 +402,8 @@ Link to PDF for manually testing on different browsers and device sizes.
     * [J Kelly Gardening Services](https://jkellygardeningservices.co.uk/)
     * [Ashcroft Gardening Services](https://www.ashcroftgardeningservices.co.uk/)
     * [APC Property](https://www.apcproperty.co.uk/)
+
+* Code
+    * [W3 Schools](https://www.w3schools.com/) 
 
 [Back to top](#mow-and-more)
