@@ -46,6 +46,29 @@ h3{
     margin-right: 20px;
 }
 
+/*buttons*/
+
+.btn-outline-success{
+    color: var(--primary-color);
+    background-color: var(--primary-highlight);
+    border: 2px solid var(--primary-color);
+    margin-left:5px;
+    text-align: center;
+}
+
+.btn-outline-success:hover{
+    color:var(--primary-background-color);
+    background-color: var(--primary-color);
+    border:2px solid var(--primary-highlight);
+    font-size: 110%;
+    text-decoration: none;
+}
+
+/*icons*/
+i{
+    margin-right:10px;
+}
+
 /*for quotation text from Bob and also testimonials*/
 .quotes{
     background-color: var(--secondary-highlight);
@@ -100,21 +123,7 @@ h3{
     font-size: 1.5rem;
 }
 
-.btn-outline-success{
-    color: var(--primary-color);
-    background-color: var(--primary-highlight);
-    border: 2px solid var(--primary-color);
-    margin-left:5px;
-    text-align: center;
-}
 
-.btn-outline-success:hover{
-    color:var(--primary-highlight);
-    background-color: var(--primary-color);
-    border:2px solid var(--primary-highlight);
-    font-size: 110%;
-    text-decoration: none;
-}
 
 /*Hero image style rules*/
 #hero{
@@ -174,6 +183,26 @@ h3{
 }
 
 /*Footer style rules*/
+
+footer{
+    background-color: var(--secondary-color);
+    color: var(--primary-background-color);
+    font-size: 0.8rem;
+    padding-top:20px;
+}
+
+footer h3{
+    color:var(--primary-background-color);
+}
+
+.social-icons a{
+    font-size: 1.7rem;
+    color:var(--primary-background-color);
+}
+.social-icons a:hover{
+    font-size:2rem;
+    color:var(--secondary-highlight);
+}
 
 /*Media queries*/
 /*small screens: 578px and up*/
