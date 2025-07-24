@@ -376,15 +376,17 @@ footer h3{
     #services .card:hover{
         font-size:110%;
         box-shadow: 5px 5px 5px var(--primary-highlight);
+        transition: all 0.3s ease-in-out;
     }
 
     /*testimonials*/
     #testimonials .quotes{
-    min-height:309px;
+        min-height:309px;
     }
     #testimonials .quotes:hover{
-    font-size:110%;
-    box-shadow: 5px 5px 5px var(--primary-highlight);
+        font-size:110%;
+        box-shadow: 5px 5px 5px var(--primary-highlight);
+        transition: all 0.3s ease-in-out;
     }
 }
 
