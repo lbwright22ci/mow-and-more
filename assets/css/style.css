@@ -151,8 +151,8 @@ i{
 
 /*Hero image style rules*/
 #hero{
-    background: url(../images/hero-front-garden-with-flowers.webp) var(--highlight-color) no-repeat center center/cover fixed;
-    height: 80vh;
+    background: url(../images/hero-image.webp) var(--highlight-color) no-repeat center center/cover fixed;
+    height: 70vh;
     width:100%;
     position:relative;
 }
@@ -227,6 +227,10 @@ footer h3{
     font-size:2rem;
     color:var(--secondary-highlight);
     transition: all 0.5s ease-in-out;
+}
+.qualifications img{
+    max-height: 50px;
+    background-color: var(--primary-background-color);
 }
 
 /*Media queries*/
