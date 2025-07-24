@@ -213,11 +213,11 @@ i{
 
 .testimonial-images{
     text-align: center;
+    color:var(--highlight-color);
 }
 
-.quotes #testimonials{
-    min-height:374px;
-}
+
+
 /*Contact form section style rules*/
 .required{
     color: var(--highlight-color);
@@ -272,6 +272,10 @@ footer h3{
 /*medium screens: tablets (768px and above)*/
 @media screen and (min-width:768px){
     
+    /*testimonials*/
+    #testimonials .quotes{
+    min-height:334px;
+    }
 }
 
 /*hide nav bar brand text on mobile and tablet*/
@@ -291,17 +295,32 @@ footer h3{
     #gardener-portrait{
     width: 45vw;
     height:45vw;
-
-}
+    }
+    /*testimonials*/
+    #testimonials .quotes{
+    min-height:309px;
+    }
+    #testimonials .quotes:hover{
+    font-size:110%;
+    box-shadow: 5px 5px 5px var(--primary-highlight);
+    }
 }
 
 /*extra large screens: 1200 px and above*/
 @media  screen and (min-width:1200px) {
+    /*testimonials*/
+    #testimonials .quotes{
+    min-height:406px;
+    }
 
 }
 
 /*extra extra large screens: 1400 px and above*/
 @media  screen and (min-width:1400px) {
+    /*testimonials*/
+    #testimonials .quotes{
+    min-height:357px;
+    }
 }
 
 
