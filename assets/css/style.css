@@ -245,6 +245,13 @@ i{
     border: none;
 }
 
+#services .card-footer{
+    border: none;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 /*Testimonials section style rules*/
 .testimonial-images img{
     max-width:150px;
@@ -314,6 +321,16 @@ footer h3{
     .section{
         padding-top: 4rem;
     }
+    /*services*/
+    #service-card-2 .card-body,
+    #service-card-1 .card-body{
+        min-height: 368px;
+    }
+
+    #service-card-3 .card-body,
+    #service-card-4 .card-body{
+        min-height:320px;
+    }
     /*testimonials*/
     #testimonials .quotes{
     min-height:334px;
@@ -345,6 +362,22 @@ footer h3{
         color: var(--highlight-color);
         transition: all 0.3s ease-in-out;
     }
+
+        /*services*/
+    #service-card-2 .card-body,
+    #service-card-1 .card-body{
+        min-height: 298px;
+    }
+
+    #service-card-3 .card-body,
+    #service-card-4 .card-body{
+        min-height:298px;
+    }
+    #services .card:hover{
+        font-size:110%;
+        box-shadow: 5px 5px 5px var(--primary-highlight);
+    }
+
     /*testimonials*/
     #testimonials .quotes{
     min-height:309px;
@@ -357,6 +390,17 @@ footer h3{
 
 /*extra large screens: 1200 px and above*/
 @media  screen and (min-width:1200px) {
+            /*services*/
+    #service-card-2 .card-body,
+    #service-card-1 .card-body{
+        min-height: 275px;
+    }
+
+    #service-card-3 .card-body,
+    #service-card-4 .card-body{
+        min-height:275px;
+    }
+
     /*testimonials*/
     #testimonials .quotes{
     min-height:406px;
@@ -369,6 +413,13 @@ footer h3{
     /*about*/
     #why-choose{
         margin-top: 50px;
+    }
+    /*services*/
+    #service-card-2 .card-body,
+    #service-card-1 .card-body,
+    #service-card-3 .card-body,
+    #service-card-4 .card-body{
+        min-height: 371px;
     }
 
     /*testimonials*/
