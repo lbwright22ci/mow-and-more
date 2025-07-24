@@ -207,7 +207,17 @@ i{
 /*Service section style rules*/
 
 /*Testimonials section style rules*/
+.testimonial-images img{
+    max-width:150px;
+}
 
+.testimonial-images{
+    text-align: center;
+}
+
+.quotes #testimonials{
+    min-height:374px;
+}
 /*Contact form section style rules*/
 .required{
     color: var(--highlight-color);
