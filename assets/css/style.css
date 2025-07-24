@@ -25,9 +25,13 @@ body{
 h1,
 h2,
 h3{
-    font-family: var(--secondary-font);
     color: var(--secondary-color);
-    font-weight:800px;
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+h1{
+        font-family: var(--secondary-font);
 }
 
 /*padding for all sections*/
@@ -185,7 +189,6 @@ i{
 #hero-subtitle-text{
     font-style: italic;
     text-align: left;
-    font-family: var(--primary-font);
     color: var(--primary-color);
 }
 
@@ -211,6 +214,7 @@ i{
 
 #about .lead{
     font-weight:500;
+    color:var(--secondary-color);
 }
 
 /*Service section style rules*/
@@ -280,7 +284,10 @@ footer h3{
 
 /*medium screens: tablets (768px and above)*/
 @media screen and (min-width:768px){
-    
+    /*padding for all sections*/
+    .section{
+        padding-top: 4rem;
+    }
     /*testimonials*/
     #testimonials .quotes{
     min-height:334px;
@@ -305,6 +312,13 @@ footer h3{
     width: 45vw;
     height:45vw;
     }
+    #about li:hover{
+        font-size:120%;
+        padding-top:10px;
+        padding-bottom:20px;
+        color: var(--highlight-color);
+        transition: all 0.3s ease-in-out;
+    }
     /*testimonials*/
     #testimonials .quotes{
     min-height:309px;
@@ -326,6 +340,11 @@ footer h3{
 
 /*extra extra large screens: 1400 px and above*/
 @media  screen and (min-width:1400px) {
+    /*about*/
+    #why-choose{
+        margin-top: 50px;
+    }
+
     /*testimonials*/
     #testimonials .quotes{
     min-height:357px;
