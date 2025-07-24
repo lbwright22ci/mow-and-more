@@ -217,7 +217,33 @@ i{
     color:var(--secondary-color);
 }
 
+#about #carouselExampleIndicators{
+    box-shadow:  5px 5px 5px var(--secondary-highlight);
+}
+#about img{
+    border-radius: 0.375rem;
+}
+
 /*Service section style rules*/
+
+#services h3{
+    font-weight:500;
+    color:var(--secondary-color);
+}
+
+#services i{
+    color:var(--secondary-color);
+}
+
+#services .card-body hr{
+    border: 1px solid var(--secondary-color);
+    opacity: 1;
+}
+
+#services .card{
+    box-shadow: 5px 5px 5px var(--secondary-highlight);
+    border: none;
+}
 
 /*Testimonials section style rules*/
 .testimonial-images img{
