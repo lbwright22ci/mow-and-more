@@ -190,7 +190,7 @@ i{
 }
 
 /*About section style rules*/
-#gardener-portrait{
+.gardener-portrait{
     background: url(../images/gardenerFreepix.webp) no-repeat center center/cover;
     /* background-color: black; */
     width: 90vw;
@@ -352,6 +352,18 @@ footer a{
     background-color: var(--primary-background-color);
 }
 
+.awards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/*Modal*/
+.modal-body .gardener-portrait{
+    max-width: 100px;
+    max-height:100px;
+}
+
 /*Media queries*/
 /*small screens: 578px and up*/
 @media screen and (min-width: 576px) {
@@ -407,7 +419,7 @@ footer a{
         padding:20px;
         top:auto;
     }
-    #gardener-portrait{
+    .gardener-portrait{
     width: 45vw;
     height:45vw;
     }
