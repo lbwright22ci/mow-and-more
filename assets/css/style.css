@@ -315,13 +315,32 @@ footer{
     padding-top:20px;
 }
 
-footer h3{
+footer .display-6{
     color:var(--primary-background-color);
+    font-size: 1.2rem;
+    margin-bottom:0.5rem;
 }
 
+footer hr{
+    margin-top:0;
+    margin-bottom:0.5rem;
+    color:var(--primary-background-color);
+    opacity: 1;
+    width:80%;
+    margin-left:10%;
+}
+
+footer p{
+    margin-bottom:0.5rem;
+}
+
+.social-media i,
+footer i,
+footer a{
+    color:var(--primary-background-color);
+}
 .social-media i{
     font-size: 1.7rem;
-    color:var(--primary-background-color);
 }
 .social-media i:hover{
     font-size:2rem;
