@@ -318,46 +318,61 @@
     <!--contact form section-->
         <section class="section" id="contact">
                 <div class="container">
-                    <div class="row justify-content-start">
+                    <div class="row justify-content-start ms-xl-4 me-xl-4">
                         <div class="col-12">
                             <h2 class="display-3">Let's get started!</h2>
                             <p>Whether you need help every week or just a quick refresh, I’d be happy to chat about what you need.</p>
                         </div>
                     </div>
                     <form action="success.html" method="get">
-                        <div class="row justifiy-content-start mb-3 g-3">
-                            <div class=" col-12 col-md-6 col-xl-4 mb-3 mb-xl-0">
+                        <div class="row justifiy-content-start mb-4 g-2 ms-3 me-3 ms-md-0 me-md-0 ms-xl-4 me-xl-4">
+                            <div class=" col-12 col-md-4 ">
                                 <label for="name" class="form-label">Name<span class="required">*</span></label>
-                                <input type="text" class="form-control" id="name" required placeholder="Joe Bloggs">
+                                <input type="text" class="form-control" id="name" name="name" required placeholder="Joe Bloggs">
                             </div>
-                            <div class=" col-12 col-md-6 col-xl-4 mb-3 mb-xl-0">
+                            <div class=" col-12 col-md-4 col-lg-4">
                                 <label for="email" class="form-label">email<span class="required">*</span></label>
-                                <input type="email" class="form-control" id="email" required placeholder="name@gmail.com">
+                                <input type="email" class="form-control" id="email" name="email" required placeholder="name@gmail.com">
                             </div>
-                            <div class=" col-12 col-md-6 col-xl-4 mb-3 mb-md-0">
+                            <div class=" col-12 col-md-4 col-lg-4">
                                 <label for="phone" class="form-label">Phone<span class="required">*</span></label>
-                                <input type="number" class="form-control" id="phone" required placeholder="07700 112233">
+                                <input type="number" class="form-control" id="phone" name="phone" required placeholder="07700 112233">
                             </div>
                         </div>
-                        <div class="row justifiy-content-left mb-3 g-3">
-                            <div class="col-12 col-md-6 mb-3 mb-md-0">
-                                <label for="address" class="form-label">Address<span class="required">*</span></label>
-                                <textarea class="form-control" id="address" required placeholder="street number, name and postcode" aria-describedby="address-help"></textarea>
+                        <div class="row justifiy-content-start mb-4 g-2 ms-3 me-3 ms-md-0 me-md-0 ms-xl-4 me-xl-4">
+                            <div class="col-12 col-md-6">
+                                <label for="address1" class="form-label">Address<span class="required">*</span></label>
+                                <input type="text" class="form-control" id="address1" name="address1" required placeholder="house number and street name">
                             </div>
-                            <div class="col-12 col-md-6 mb-3 mb-md-0">
-                                <span class="form-info-text form-text" id="address-help"> Please note that I typically only serve postcodes B91, B92 and B93. If you live close to the boundary then I may be able to visit.</span>
+                            <div class="col-12 col-md-4">
+                                <label for="address2" class="form-label">Location<span class="required">*</span></label>
+                                <select class="form-select" id="address2" name="location" required>
+                                    <option value="" selected>Select</option>
+                                    <option value="bentley-heath" selected>Bentley Heath</option>
+                                    <option value="knowle" selected>Knowle</option>
+                                    <option value="dorridge" selected>Dorridge</option>
+                                    <option value="solihull-center" selected>Solihull</option>
+                                    <option value="shirley" selected>Shirley</option>
+                                </select>   
+                            </div>
+                            <div class="col-12 col-md-2">
+                                <label for="postcode" class="form-label">Postcode<span class="required">*</span></label>
+                                <input type="text" class="form-control" id="postcode" name="postcode" required placeholder="B91" aria-describedby="address-help">
+                            </div>
+                            <div class="col-12 mb-3">
+                                <span class="form-info-text form-text" id="address-help"> Please note, I can only cover properties in postcodes B91, B92 and B93.  If you live close to the boundary then I may be able to visit.</span>
                             </div>
                         </div>
-                        <div class="row justifiy-content-left mb-3 g-3">
-                            <div class="col-12 col-lg-6 mb-3 mb-lg-0">
-                                <p> I'd like to get a quote or book you for<span class="required">*</span>:</p>
+                        <div class="row justifiy-content-start mb-4 g-2 ms-3 me-3 ms-md-0 me-md-0 ms-xl-4 me-xl-4">
+                            <div class="col-12 col-md-6">
+                                <p> I'd like to get a quote for<span class="required">*</span>:</p>
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" value="lawn" id="lawn" name="lawn" required>
                                     <label class="form-check-label" for="lawn"> Lawn care and mowing </label>
                                 </div>
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" value="weeding" id="weeding" name="weeding" required>
-                                    <label class="form-check-label" for="weeding"> Weeding or general garden maintenance </label>
+                                    <label class="form-check-label" for="weeding"> General garden maintenance </label>
                                 </div>
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" value="hedges" id="hedges" name="hedges" required>
@@ -372,14 +387,14 @@
                                     <label class="form-check-label" for="other"> Other </label>
                                 </div>
                             </div>
-                            <div class="col-12 col-lg-6">
-                                <label for="message" class="form-label">Further details or message</label>
+                            <div class="col-12 col-md-6">
+                                <label for="message" class="form-label">Message</label>
                                 <textarea class="form-control" id="message" required placeholder="Let me know more about what you'd like done or any specific requirements/requests"></textarea>
                             </div>
                         </div>
-                        <div class="row justifiy-content-start mb-3 g-3">
+                        <div class="row justifiy-content-start  mb-4 g-2 ms-3 me-3 ms-md-0 me-md-0 ms-xl-4 me-xl-4">
                             <div class="col-12">
-                                <p> I'd prefer for you to contact me by<span class="required">*</span>:</p>
+                                <p> I'd prefer for you to contact me by<span class="required">*</span>:
                                 <span class="form-check">
                                     <input class="form-check-input" type="radio" name="prefered-contact" id="contact-phone" required>
                                     <label class="form-check-label" for="contact-phone"> Phone</label>
@@ -387,16 +402,16 @@
                                 <span class="form-check">
                                     <input class="form-check-input" type="radio" name="prefered-contact" id="contact-email" required>
                                     <label class="form-check-label" for="contact-email"> email</label>
-                                </span>
-                            </div>
-                            <div class="col-12">
-                                <p class="form-info-text"><span class="required">*</span> Indicates required information.</p>
+                                </span> </p>
                             </div>
                         </div>
-                        <div class="row justify-content-end mb-3 g-3">
-                            <div class="col-auto">
+                        <div class="row justify-content-end  mb-4 g-2 ms-3 me-3 ms-md-0 me-md-0 ms-xl-4 me-xl-4">
+                            <div class="col-12 col-md-9">
+                                <p class="form-info-text"><span class="required">*</span> Indicates required information.</p>
+                            </div>
+                            <div class="col-12 col-md-3 d-flex justify-content-end">
                                 <button type="submit" class="btn btn-outline-success">Submit</button>
-                                <button type="reset" class="btn btn-primary">Reset</button>
+                                <button type="reset" class="btn btn-reset">Reset</button>
                             </div>
                         </div>
                     </form>
