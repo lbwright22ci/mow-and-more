@@ -143,6 +143,7 @@ The rest of the images were taken myself.  All images were optimised for web-vie
 * Hedge and bush cutting image by [Alexa](https://pixabay.com/users/alexas_fotos-686414/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=972972) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=384589)
 * Pressure washing image by [Tomasz](https://stock.adobe.com/uk/contributor/200738455/tomasz-zajda) from [Stock Adobe](https://stock.adobe.com)
 * Portrait shot of a gardener holding a plant in a pot from [FreePix](https://www.freepik.com/) (author unknown).
+* Icon of [lawnmower](https://icons8.com/icon/iYJcc6h68LAb/lawn-mower) from [Icons8](https://icons8.com)
 
 Stock images not used:
 * Patio with chairs and flowers image by [PublicDomainPictures](https://pixabay.com/users/publicdomainpictures-14/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=219900) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=384589)
@@ -390,6 +391,7 @@ Link to PDF for manually testing on different browsers and device sizes.
 
 * Images
     * [IconScout](https://iconscout.com)
+    * [Icons8](https://icons8.com)
     * [Pixabay](https://pixabay.com)
     * [FreePix](https://www.freepik.com/)
     * [StockAdobe](https://stock.adobe.com)
