@@ -31,7 +31,7 @@
     <header>
         <nav class="navbar navbar-expand-md fixed-top" id="navbar" data-bs-theme="dark">
             <div class="container">
-                <a class="navbar-brand"  href="index.html"><img src="assets/images/gardener-logo.png" alt="Mow and more logo" id="logo"><span id="nav-logo-text">Mow & More</span></a>
+                <a class="navbar-brand" id="nav-logo-text" href="index.html"><img src="assets/images/gardener-logo.png" alt="Mow and more logo" id="logo"><span class="brand-text">Mow & More</span></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -55,9 +55,8 @@
                             <a class="nav-link" href="#contact">Contact</a>
                         </li> -->
                     </ul>
-                    <a id="nav-button" class="btn btn-outline-success" href="#contact" aria-label="Takes you to a form where you can get in touch and book a quote">Contact</a>
+                    <button id="nav-button" class="nav-link btn btn-outline-success" href="#contact" aria-label="Takes you to a form where you can get in touch and book a quote">Contact</button>
                 </div>
-<!-- to work on: move the button outside the collapsed menu (but to the left of it) on mobile and tablet-->
             </div>
         </nav>
     </header>
@@ -69,7 +68,7 @@
             <div class="container-fluid" >
                 <div class="row">
                     <div class="col-12" id="hero-text-background">
-                        <h1 class="display-1" id="title-text">Mow & More</h1>
+                        <h1 class="display-1 brand-text" id="title-text">Mow & More</h1>
                         <h2 class="display-6" id="hero-subtitle-text">Helping you enjoy the garden without the hard work!</h2>
                     </div>
                 </div>
@@ -90,7 +89,7 @@
                         <div class="quotes">
                             <div class="speech-marks"><i class="fa-solid fa-quote-left"></i></div>
                                 <p>Hi, I'm Bob, welcome to Mow & More. I provide reliable, friendly and trustworthy gardening and outdoor maintenance services in Solihull. Whether you're looking for regular help or just need a one-off tidy-up, I'm here to make life a little easier and your home look its best.</p>
-                                <p class="author">-- Bob <i class="fa-solid fa-hand-holding-heart"></i>, the heart and hands of<span class="address"> Mow & More</span>.</p>
+                                <p class="author">-- Bob <i class="fa-solid fa-hand-holding-heart"></i>, the heart and hands of<span class="brand-text"> Mow & More</span>.</p>
                         </div class="quotes">
                     </div>
                 </div>
@@ -145,7 +144,7 @@
                         
                     </div>
                     <div class="col-12 col-lg-6" id="why-choose">
-                        <h3 class="display-6"> Why choose Mow & More?</h3>
+                        <h3 class="display-6"> Why choose <span class="brand-text">Mow & More?</span></h3>
                         <ul>
                             <li><span class="lead"><i class="fa-solid fa-star"></i>Friendly & Local:</span> One-person business with a personal touch</li>
                             <li><span class="lead"><i class="fa-solid fa-star"></i>Trustworthy & Dependable:</span> Many happy, long-term customers</li>
@@ -153,6 +152,14 @@
                             <li><span class="lead"><i class="fa-solid fa-star"></i>Flexible Service:</span> No job too small, and schedules to suit you</li>
                         </ul>
                     </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="section-footer">
+                    <!--Lawn Mower icon by Icons8-->
+                    <div><img class="section-footer-image" src="https://img.icons8.com/badges/48/lawn-mower.png" alt="lawn-mower"/></div>
+                    <div><img class="section-footer-image" src="https://img.icons8.com/badges/48/lawn-mower.png" alt="lawn-mower"/></div>
+                    <div><img class="section-footer-image" src="https://img.icons8.com/badges/48/lawn-mower.png" alt="lawn-mower"/></div>
                 </div>
             </div>
         </section>
@@ -170,6 +177,7 @@
                 <div class="row ms-xl-4 me-xl-4 ms-xxl-0 me-xxl-0">
                     <div class="col-12 col-md-6 mb-3 col-xxl-3 gx-md-5  gx-xxl-3">
                         <div class="card" id="service-card-1">
+                            <!--image by Rudy and Peter Skitterians from https://pixabay.com-->
                             <img src="assets/images/services-lawn.webp" class="card-img-top" alt="A photo of a lawn mower">
                             <div class="card-body">
                                 <h3 class="card-title"><i class="fa-solid fa-seedling"></i>Lawn mowing</h3>
@@ -192,6 +200,7 @@
                     </div>
                     <div class="col-12 col-md-6 mb-3 col-xxl-3 gx-md-5  gx-xxl-3">
                         <div class="card" id="service-card-2">
+                            <!--image by Couleur from https://pixabay.com-->
                             <img src="assets/images/services-general.webp" class="card-img-top" alt="A photo of someone weeding">
                             <div class="card-body">
                                 <h3 class="card-title"> <i class="fa-solid fa-leaf"></i>Weeding & more</h3>
@@ -213,6 +222,7 @@
                     </div>
                     <div class="col-12 col-md-6 col-xxl-3 mb-3 gx-md-5  gx-xxl-3">
                         <div class="card" id="service-card-3">
+                            <!--Image by Alexa from https://pixabay.com-->
                             <img src="assets/images/services-hedges.webp" class="card-img-top" alt="A photo of a hedge being cut">
                             <div class="card-body">
                                 <h3 class="card-title"><i class="fa-solid fa-tree"></i>Hedge trimming</h3>
@@ -235,6 +245,7 @@
                     </div>
                     <div class="col-12 col-md-6 col-xxl-3 mb-3 gx-md-5 gx-xxl-3">
                         <div class="card" id="service-card-4">
+                            <!--image by Tomasz from https://stock.adobe.com/uk/contributor/200738455/tomasz-zajda-->
                             <img src="assets/images/services-pressurewash.webp" class="card-img-top" alt="A photo of a pressure washer">
                             <div class="card-body">
                                 <h3 class="card-title"><i class="fa-solid fa-house-chimney-window"></i>Patios & drives</h3>
@@ -255,6 +266,14 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="section-footer">
+                    <!--Lawn Mower icon by Icons8-->
+                    <div><img class="section-footer-image" src="https://img.icons8.com/badges/48/lawn-mower.png" alt="lawn-mower"/></div>
+                    <div><img class="section-footer-image" src="https://img.icons8.com/badges/48/lawn-mower.png" alt="lawn-mower"/></div>
+                    <div><img class="section-footer-image" src="https://img.icons8.com/badges/48/lawn-mower.png" alt="lawn-mower"/></div>
                 </div>
             </div>
         </section>
@@ -312,6 +331,14 @@
                             <p class="author">-- Mrs Daffodil,<span class="address"> Shirley</span>.</p>
                         </div class="quotes">
                     </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="section-footer">
+                    <!--Lawn Mower icon by Icons8-->
+                    <div><img class="section-footer-image" src="https://img.icons8.com/badges/48/lawn-mower.png" alt="lawn-mower"/></div>
+                    <div><img class="section-footer-image" src="https://img.icons8.com/badges/48/lawn-mower.png" alt="lawn-mower"/></div>
+                    <div><img class="section-footer-image" src="https://img.icons8.com/badges/48/lawn-mower.png" alt="lawn-mower"/></div>
                 </div>
             </div>
         </section>
@@ -421,6 +448,14 @@
                         </div>
                     </div>
                 </div>
+            <div class="container">
+                <div class="section-footer">
+                    <!--Lawn Mower icon by Icons8-->
+                    <div><img class="section-footer-image" src="https://img.icons8.com/badges/48/lawn-mower.png" alt="lawn-mower"/></div>
+                    <div><img class="section-footer-image" src="https://img.icons8.com/badges/48/lawn-mower.png" alt="lawn-mower"/></div>
+                    <div><img class="section-footer-image" src="https://img.icons8.com/badges/48/lawn-mower.png" alt="lawn-mower"/></div>
+                </div>
+            </div>
         </section>
 
     </main>
@@ -503,7 +538,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Mow & More</h1>
+                    <h1 class="modal-title fs-5 brand-text" id="exampleModalLabel">Mow & More</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
