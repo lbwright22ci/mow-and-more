@@ -71,8 +71,6 @@ The vast majority of residents are homeowners with very few rental properties.  
 * **_What happens next?_**
     * As a potential customer, what happens after I submit an inquiry form with you? Do you get in touch and do the job straight away?  Can I meet you in person first?  When will you be able to give me a quote?
 
-
-
 [Back to top](#mow-and-more)
 
 ## Wireframes
@@ -150,7 +148,7 @@ A combination of stock images and those taken myself are used on the website.  T
 
 Two icons were sourced for the site specifically: one for the favicon and navigation bar (gardener with a spade) and one as a section break to add interest (lawnmower).
 
-All photos were converted to .wepb files and optimized to less than 200kB for web-viewing with the aim to optimise site performance.
+All photos were converted to .webp files and optimized to less than 200kB for web-viewing with the aim to optimise site performance.
 
 #### Favicon
 * Gardener and spade outline from [Icon Scout](https://iconscout.com/icons/gardener) designed by [Rank Sol](https://iconscout.com/contributors/promotion-king).  The outline changed to website dark green (#264D32) for consistent branding.
@@ -165,10 +163,18 @@ All photos were converted to .wepb files and optimized to less than 200kB for we
 * Portrait shot of a gardener holding a plant in a pot from [FreePix](https://www.freepik.com/) (author unknown).
 * Icon of [lawnmower](https://icons8.com/icon/iYJcc6h68LAb/lawn-mower) from [Icons8](https://icons8.com)
 
-#### Images for accredition section
+#### Images for accreditation section
+The badges and awards/accreditations in the footer of the website are fictional.  Images were sourced for free from:
+* [Check-a-trade](https://pureecosolutions.co.uk/checkatrade-logo/) logo 
+* [Trust a Trader](https://www.facebook.com/TrustATrader/) badge
+* [City & Guilds NPTC](https://www.nptc.org.uk/) logo
 
 ### Responsiveness
-text. Explain using Bootstrap media break points.
+In accordance with best practices, the website was designed mobile first.  For the main site structure, screen-size-dependent responsive styling was implemented using the Bootstrap grid system.  The same screen breakpoint dimensions were then employed for all custom CSS added.  
+
+Screen responsiveness for mouse point hovering was implemented for laptop dimensions only in most cases as a cursor tip pointer is not present on touch screen devices such as mobile and tablet.
+
+The breakpoint dimensions are as follows:
 
 |**Breakpoint**|**Class infix**|**Dimensions**|
 |---|---|---|
@@ -177,7 +183,7 @@ text. Explain using Bootstrap media break points.
 |Medium|`md`|&ge;768px|
 |Large|`lg`|&ge;992px|
 |X-Large|`xl`|&ge;1200px|
-|xx-Large|`xxl`|&ge;1400px|
+|XX-Large|`xxl`|&ge;1400px|
 
 [Back to top](#mow-and-more)
 
@@ -234,7 +240,11 @@ text
 
 ### Future Enhancements
 
-* list
+* Add separate webpages for each of the different services offered so that more details can be given.  These could include things such as products or equipment used and a gallery of photos from past jobs and/or testimonials relating specifically to that service.
+* Further development of the booking/inquiry form so that:
+    * Users are required to tick at least one of the service checkboxes in order to submit the form.
+    * Specific time slots can be booked online without the need to go through a quote system first.
+* Links to policy documents in the footer of the website (such as Terms and Conditions, Data Protection etc).
 
 [Back to top](#mow-and-more)
 
@@ -244,7 +254,7 @@ text
 
 * [HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-* [JS]()
+* [JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ### Libraries & Framework
 
@@ -253,8 +263,8 @@ text
 
 ### Tools
 
-* [GitHub]()
-* [GitPod]()
+* [GitHub](https://github.com/)
+* [VSCode](https://code.visualstudio.com/)
 * [Balsamiq](https://balsamiq.com/)
 * [W3C HTML Validation Service](https://validator.w3.org/#validate_by_input)
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input)
@@ -274,19 +284,22 @@ text
 * WAVE Accessibility Tool
 
 
-
-
 [Back to top](#mow-and-more)
 
 ## Testing
 
 ### Bugs Fixed
 
-text
+Bugs identified while writing the code.
 
 |**Bug**|**Status**|**Description**|**Steps to Resolve**|
 |---|---|---|---|
-|bug one| fixed| what it is| how it was fixed|
+|Expanded navigation on mobile not collapsing when Contact button is selected| fixed| When the contact button is selected the navigation menu remained open despite the custom JS code added (supplied from Code Institute during Boardwalk Games project)| Add the 'nav-link' class to the button.  A special ID also required then so that the button is styled as a button and not as a hyperlink|
+|Gardener portrait image not displaying in about section| fixed| Gardener portrait added as a background image to a `div`; in the about section with height = width and 50% radius. None of this was displaying on the website| Typo in custom class used to identify the `div` in style.css |
+|Formatting the carousel with rounded corners| fixed| For consistency of image styling throughout the page the carousel images need to have the same border radius as service card images.| Apply custom CSS style to all `img` which are descendants of the About section (with ID #about).  Applying styling to #about descendants with class '.carousel-item' did not work.|
+|Date and costs not spaced evenly at the base of service cards| fixed| When written as two `span` groups the date icon and text next to the price icon and text did not display equally spaced along the bottom of the service cards.| Re-write this part of the code as two `div`s and add them to a parent `div` with flexbox styling `justify-content: space-evenly`|
+|Phone number field in contact form accepting text input| fixed| When using `input type="tel"` it was possible to submit the form with text (rather than numbers) in the Phone field of the contact form.| Change to `input type="number"`.  Note `type="tel"` is not recognised by all browsers.|
+|Check boxes in the contact form are not compulsary| not fixed| Desired outcome is that the user needs to select at least one of the service checkboxes that they are interested in to be able to submit the form. | It is not possible to resolve this without the use of extra JS code.  With HTML alone, the only options are to make all checkboxes mandatory (which isn't appropriate as not every user will want to ask about every service) or to use the radio function where a user can only select one option (also not appropriate as users may wish to inquire about both lawn mowing and another job).|
 
 [Back to top](#mow-and-more)
 
@@ -322,28 +335,36 @@ Add in here tests using [W3C CSS Validator](https://jigsaw.w3.org/css-validator/
 
 ### User Story Testing
 
-|**User Story**|**Acceptance criteria**|**Screenshot**|
-|---|---|---|
-|Easy navigation and responsive design to the website| [ ] Logical navigation to access all sections and pages of the website and locate key information.|[name for screenshot](url-link-to-pdf)|
-|| [ ] Website is responsive on all devices (mobile, tablet and laptop).||
-|   | [ ] Browser favicon for branding. |   |
-|Key benefits of using the service| [ ] Hero section to the main page with eye catching image and text|[name for screenshot](url-link-to-pdf)|
-| | [ ] Easy to read bullet point or short text statements which highlight the key features which set this business apart from others| |
-| | [ ] Due to aiming at 'local' and 'older adult' customers a photo of the gardener and making the user feel like they know the person who will be doing the job will inspire confidence| |
-|Business information| [ ] Clearly stated the postcodes or geographical areas covered|[name for screenshot](url-link-to-pdf)|
-| | [ ] Clearly stated business hours (Mon-Fri 8 am - 5 pm)| |
-|Engaging descriptions of the services offered| [ ] kjl|[name for screenshot](url-link-to-pdf)|
-|High quality images of the services offered| [ ] High quality images used across the site.|[name for screenshot](url-link-to-pdf)|
-| | [ ] Links to social media profiles which will display photos of current or recent jobs.| |
-|Estimated pricing| [ ] kjl|[name for screenshot](url-link-to-pdf)|
-|Testimonials from past customers| [ ] kjl|[name for screenshot](url-link-to-pdf)|
-|Inquiry form to get a quote for my garden| [ ] kjl|[name for screenshot](url-link-to-pdf)|
-|Alternative methods of communication| [ ] Direct contact email address and phone number located in website footer (standard location)|[name for screenshot](url-link-to-pdf)|
-| | [ ] Radio button required field for the inquiry form which allows potential customers to toggle between an email reply to book a quote and a phone call reply| |
-|Keeping up-to-date with current projects and offers| [ ] Social media links found in the footer of the website (standard location)|[name for screenshot](url-link-to-pdf)|
-| | [ ] Pop up modal in the website footer for users to subscribe to a newsletter| |
-|Professional accreditation and certification| [ ] Accreditation badges with links to relevant sites along with logos of significant products used (with links) found in the footer of the website (standard location)|[name for screenshot](url-link-to-pdf)|
-|What happens next| [ ] Above the inquiry form (and on the form submission 'Success Page') a simple step guide of what a customer is to expect (1. complete form, 2. email or phone call back to arrange a time to meet and assess for a quote, 3. get a quote and set a time for the job to be done, 4. Job done; can cancel or rearrange at any point.)|[name for screenshot](url-link-to-pdf)|
+|**User Story**|**Pass?**|**Acceptance criteria**|**Screenshot**|
+|---|---|---|---|
+|Easy navigation and responsive design to the website|| Logical navigation to access all sections and pages of the website and locate key information.|[name for screenshot](url-link-to-pdf)|
+||| Website is responsive on all devices (mobile, tablet and laptop).||
+|   || Browser favicon for branding. |   |
+|Key benefits of using the service|| Hero section to the main page with eye catching image and text|[name for screenshot](url-link-to-pdf)|
+| | |Easy to read bullet point or short text statements which highlight the key features which set this business apart from others| |
+| || Due to aiming at 'local' and 'older adult' customers a photo of the gardener and making the user feel like they know the person who will be doing the job will inspire confidence| |
+|Business information| |Clearly stated the postcodes or geographical areas covered|[name for screenshot](url-link-to-pdf)|
+| | |Clearly stated business hours (Mon-Fri 8 am - 5 pm)| |
+|Engaging descriptions of the services offered|| Key benefits of employing this gardening business in simple, easy to read, eye catching text close to the top of the webpage|[name for screenshot](url-link-to-pdf)|
+|| |More in depth information about specific services along with an image in a dedicated 'Service' section.||
+|| |Advice on periods of the year when a service is available: this is important for gardening when some jobs may not be apropriate in winter||
+|High quality images of the services offered| |High quality images used across the site.|[name for screenshot](url-link-to-pdf)|
+| | |Links to social media profiles which will display photos of current or recent jobs.| |
+|Estimated pricing| |Pricing per hour for each type of the four common services displayed visibly.  The exact cost will depend on the size of the job, but this will give customers a guideline.|[name for screenshot](url-link-to-pdf)|
+|Testimonials from past customers| |A range of short quotes from existing or past customers which talk about their experience of the different services they opted for.|[name for screenshot](url-link-to-pdf)|
+|| |Testimonials should be styled in a manner consistent across the internet to inspire confidence: image, star rating, quote, name and some kind of address of the customer||
+|Inquiry form to get a quote for my garden| |Inquiry form easily found accross the site.|[name for screenshot](url-link-to-pdf)|
+|| |Inquiry form is intutive and accessible (including accessible to those with screen readers). ||
+|| |Once submitted the form takes the user through to a success page.||
+|| |Collect key information (required): name, email, phone number, address of property, service interested in (lawn care, hedge maintenance, weeding, patio & drive cleaning)||
+|| |Additional field for the customer to leave any extra information (optional).||
+|| |Option on the form to say how they want to hear back: phone call or email (required).||
+|Alternative methods of communication| |Direct contact email address and phone number located in website footer (standard location)|[name for screenshot](url-link-to-pdf)|
+| | |Radio button required field for the inquiry form which allows potential customers to toggle between an email reply to book a quote and a phone call reply| |
+|Keeping up-to-date with current projects and offers| |Social media links found in the footer of the website (standard location)|[name for screenshot](url-link-to-pdf)|
+| | |Pop up modal in the website footer for users to subscribe to a newsletter| |
+|Professional accreditation and certification| |Accreditation badges with links to relevant sites along with logos of significant products used (with links) found in the footer of the website (standard location)|[name for screenshot](url-link-to-pdf)|
+|What happens next| |Above the inquiry form (and on the form submission 'Success Page') a simple step guide of what a customer is to expect (1. complete form, 2. email or phone call back to arrange a time to meet and assess for a quote, 3. get a quote and set a time for the job to be done, 4. Job done; can cancel or rearrange at any point.)|[name for screenshot](url-link-to-pdf)|
 
 [Back to top](#mow-and-more)
 
