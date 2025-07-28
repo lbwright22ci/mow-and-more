@@ -31,7 +31,8 @@
     <header>
         <nav class="navbar navbar-expand-md fixed-top" id="navbar" data-bs-theme="dark">
             <div class="container">
-                <a class="navbar-brand" id="nav-logo-text" href="index.html"><img src="assets/images/gardener-logo.png" alt="Mow and more logo" id="logo"><span class="brand-text">Mow & More</span></a>
+                <!--Set the brand icon to show on all devices but the brand name text to only show on larger screens. No change when hover over though-->
+                <a class="navbar-brand" id="nav-logo-text" href="index.html"><img src="assets/images/gardener-logo.png" alt="Mow and more logo" id="logo"><span class="brand-text" id="hide-mobile-tablet">Mow & More</span></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -51,9 +52,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#testimonials" aria-label="Takes you to the testimonials section">Testimonials</a>
                         </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li> -->
+                        <!--button needs to have class of 'nav-link' to ensure that expanded menu re-collapses on mobile when clicked. -->
                     </ul>
                     <button id="nav-button" class="nav-link btn btn-outline-success" href="#contact" aria-label="Takes you to a form where you can get in touch and book a quote">Contact</button>
                 </div>
@@ -63,12 +62,12 @@
 
     <main>
     <!--hero image-->
-    <!--to work on: formatting of text.  Add a logo or icon to the text block too-->
         <section id="hero">
             <div class="container-fluid" >
                 <div class="row">
                     <div class="col-12" id="hero-text-background">
                         <h1 class="display-1 brand-text" id="title-text">Mow & More</h1>
+                        <!--Use h2 for semantic purposes-->
                         <h2 class="display-6" id="hero-subtitle-text">Helping you enjoy the garden without the hard work!</h2>
                     </div>
                 </div>
@@ -76,9 +75,6 @@
         </section>
 
     <!--about section-->
-    <!-- to work on: 1. make quotation block with icon speech marks, 2. centre quote block on
-     laptop. 3. padding and margins, 4. What I can offer section formating, 5.carousel images all the same height and width ratios
-     6. why choose mow and more part styling-->
         <section class="section" id="about">
             <h2 class="hidden-text">About</h2>
             <div class="container">
@@ -86,6 +82,7 @@
                     <div class="col-12 col-lg-6 mb-2 mb-lg-0 gardener-portrait">
                     </div>
                     <div class="col-12 col-lg-6">
+                        <!--special formating for quotes which will be consistent across website-->
                         <div class="quotes">
                             <div class="speech-marks"><i class="fa-solid fa-quote-left"></i></div>
                                 <p>Hi, I'm Bob, welcome to Mow & More. I provide reliable, friendly and trustworthy gardening and outdoor maintenance services in Solihull. Whether you're looking for regular help or just need a one-off tidy-up, I'm here to make life a little easier and your home look its best.</p>
