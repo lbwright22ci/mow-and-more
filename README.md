@@ -146,7 +146,7 @@ There are two different styled buttons used on the site: the primary style which
 ### Images
 A combination of stock images and those taken myself are used on the website.  The stock images are used for the hero image and in the services section and were chosen to be a clear visual guide of the services offered by the business (lawn mowing, weeding, general gardening, hedge trimming and pressure washing).  Images for the carousel in the about section and those in the testimonials were taken by myself and are suggestive of results after the gardener has been to visit.
 
-Two icons were sourced for the site specifically: one for the favicon and navigation bar (gardener with a spade) and one as a section break to add interest (lawnmower).
+The brand icon of the gardener with a spade was sourced for the site specifically.  This is used in the favicon, navigation bar and at the bottom of each section.
 
 All photos were converted to .webp files and optimized to less than 200kB for web-viewing with the aim to optimise site performance.
 
@@ -161,7 +161,6 @@ All photos were converted to .webp files and optimized to less than 200kB for we
 * Hedge and bush cutting image by [Alexa](https://pixabay.com/users/alexas_fotos-686414/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=972972) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=384589)
 * Pressure washing image by [Tomasz](https://stock.adobe.com/uk/contributor/200738455/tomasz-zajda) from [Stock Adobe](https://stock.adobe.com)
 * Portrait shot of a gardener holding a plant in a pot from [FreePix](https://www.freepik.com/) (author unknown).
-* Icon of [lawnmower](https://icons8.com/icon/iYJcc6h68LAb/lawn-mower) from [Icons8](https://icons8.com)
 
 #### Images for accreditation section
 The badges and awards/accreditations in the footer of the website are fictional.  Images were sourced for free from:
