@@ -39,19 +39,11 @@ h3{
 /*padding for all sections*/
 .section{
     padding-top: 2rem;
-}
-
-/*section footer images: outline lawnmower trio*/
-.section-footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-top: 2rem;
-    opacity: 0.75;
-}
-.section-footer-img{
-    width:40px;
-    height:40px;
+    padding-bottom: 2rem;
+    background-image: url(../images/section-background.webp);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: auto 36px;
 }
 
 /*to hide section headings required for semantic purposes only*/

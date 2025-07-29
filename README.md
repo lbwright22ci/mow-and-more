@@ -412,7 +412,7 @@ Link to PDF for manually testing on different browsers and device sizes.
     * [Simen Daehlin](https://github.com/eventyret)
 
 * Text for website generated in part using ChatGPT
-    *[ChatGPT suggested text](.docs-for-readme/design/ChatGPT_text_for_website_suggestions.pdf)
+    * [ChatGPT suggested text](.docs-for-readme/design/ChatGPT_text_for_website_suggestions.pdf)
 
 * Images
     * [IconScout](https://iconscout.com)
@@ -434,5 +434,6 @@ Link to PDF for manually testing on different browsers and device sizes.
 
 * Code
     * [W3 Schools](https://www.w3schools.com/) 
+    * Code Institute
 
 [Back to top](#mow-and-more)
