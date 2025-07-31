@@ -28,50 +28,48 @@
 <!--Classes on body work with mt-auto on footer to ensure footer remains at the bottom of the page-->
 <body class="d-flex flex-column min-vh-100">
     <!--navigation bar and header-->
-        <nav class="navbar navbar-expand-md fixed-top" id="navbar" data-bs-theme="dark">
-            <div class="container">
-                <!--Set the brand icon to show on all devices but the brand name text to only show on larger screens. No change when hover over though-->
-                <a class="navbar-brand" id="nav-logo-text" href="index.html"><img src="assets/images/gardener-logo.png" alt="Mow and more logo" id="logo"><span class="brand-text" id="hide-mobile-tablet">Mow & More</span></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-md-0 ">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about" aria-label="Takes you to the about section">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#services" aria-label="Takes you to the services section">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#testimonials" aria-label="Takes you to the testimonials section">Testimonials</a>
-                        </li>
-                        <!--button needs to have class of 'nav-link' to ensure that expanded menu re-collapses on mobile when clicked. -->
-                    </ul>
-                    <button id="nav-button" class="nav-link btn btn-outline-success" href="#contact" aria-label="Takes you to a form where you can get in touch and book a quote">Contact</button>
-                </div>
+    <nav class="navbar navbar-expand-md fixed-top" id="navbar" data-bs-theme="dark">
+        <div class="container">
+            <!--Set the brand icon to show on all devices but the brand name text to only show on larger screens. No change when hover over though-->
+            <a class="navbar-brand" id="nav-logo-text" href="index.html"><img src="assets/images/gardener-logo.png" alt="Mow and more logo" id="logo"><span class="brand-text" id="hide-mobile-tablet">Mow & More</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-md-0 ">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="#about" aria-label="Takes you to the about section">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services" aria-label="Takes you to the services section">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#testimonials" aria-label="Takes you to the testimonials section">Testimonials</a>
+                </li>
+                <!--button needs to have class of 'nav-link' to ensure that expanded menu re-collapses on mobile when clicked. -->
+                </ul>
+                <button id="nav-button" class="nav-link btn btn-outline-success" href="#contact" aria-label="Takes you to a form where you can get in touch and book a quote">Contact</button>
             </div>
-        </nav>
+        </div>
+    </nav>
 
-
-    
     <!--hero image-->
-        <header id="hero">
-            <div class="container-fluid" >
-                <div class="row">
-                    <div class="col-12" id="hero-text-background">
-                        <h1 class="display-1 brand-text" id="title-text">Mow & More</h1>
-                        <!--Use h2 for semantic purposes-->
-                        <h2 class="display-6" id="hero-subtitle-text">Helping you enjoy the garden without the hard work!</h2>
-                    </div>
+    <header id="hero">
+        <div class="container-fluid" >
+            <div class="row">
+                <div class="col-12" id="hero-text-background">
+                    <h1 class="display-1 brand-text" id="title-text">Mow & More</h1>
+                    <!--Use h2 for semantic purposes-->
+                    <h2 class="display-6" id="hero-subtitle-text">Helping you enjoy the garden without the hard work!</h2>
                 </div>
             </div>
-        </header>
+        </div>
+    </header>
     <main>
     <!--about section-->
         <section class="section" id="about">
@@ -153,7 +151,6 @@
         </section>
 
     <!--services section-->
-    <!--left to do: styling for each of the cards, change list bullets to ticks, colouring of icons, box shadow?-->
         <section class="section" id="services">
             <div class="container mb-4">
                 <div class="row ms-xl-4 me-xl-4  ms-xxl-0 me-xxl-0">
@@ -514,7 +511,7 @@
                             <div class="col-12 col-md-6 gardener-portrait">
                             </div>
                         </div>
-                        <form action="success.html" method="GET">
+                        <form action="success-newsletter.html" method="GET">
                             <div class="row">
                                 <div class="col-12 col-md-6 mb-3">
                                     <label for="newsletter-name" class="form-label">Name<span class="required">*</span></label>

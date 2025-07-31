@@ -30,12 +30,6 @@ h3{
     margin-bottom:20px;
 }
 
-/*specify h1 font size based on Lighthouse warning https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements#specifying_a_uniform_font_size_for_h1*/
-/* section h1 {
-    margin-block: 0.67em;
-    font-size: 2em;
-} */
-
 .brand-text{
         font-family: var(--secondary-font);
         font-style: normal;
@@ -364,6 +358,14 @@ footer a{
     max-height:100px;
 }
 
+/*success newsletter page*/
+#quote-social i{
+    color:var(--secondary-color);
+}
+#quote-social{
+    text-align: center;
+    margin-bottom: 1.2rem;
+}
 /*Media queries*/
 /*small screens: 578px and up*/
 /* @media screen and (min-width: 576px) {
