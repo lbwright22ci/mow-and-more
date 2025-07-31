@@ -31,10 +31,10 @@ h3{
 }
 
 /*specify h1 font size based on Lighthouse warning https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements#specifying_a_uniform_font_size_for_h1*/
-section h1 {
+/* section h1 {
     margin-block: 0.67em;
     font-size: 2em;
-}
+} */
 
 .brand-text{
         font-family: var(--secondary-font);
@@ -43,6 +43,7 @@ section h1 {
 }
 
 /*padding for all sections*/
+/*Gardener and spade outline from [Icon Scout](https://iconscout.com/icons/gardener) designed by [Rank Sol](https://iconscout.com/contributors/promotion-king).  The outline changed to website dark green (#264D32) for consistent branding.*/
 .section{
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -170,7 +171,7 @@ i{
 /*Hero image style rules*/
 /*image sourced from FreePik*/
 #hero{
-    background: url(../images/hero-image.webp) var(--highlight-color) no-repeat center center/cover fixed;
+    background: url(../images/hero-image.webp) no-repeat center center/cover fixed;
     height: 70vh;
     width:100%;
     position:relative;
@@ -197,7 +198,7 @@ i{
 /*About section style rules*/
 /*image sourced from FreePik*/
 .gardener-portrait{
-    background: url(../images/gardenerFreepix.webp) no-repeat center center/cover;
+    background: url(../images/gardener-freepix.webp) no-repeat center center/cover;
     /* background-color: black; */
     width: 90vw;
     height:90vw;

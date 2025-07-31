@@ -28,7 +28,6 @@
 <!--Classes on body work with mt-auto on footer to ensure footer remains at the bottom of the page-->
 <body class="d-flex flex-column min-vh-100">
     <!--navigation bar and header-->
-    <header>
         <nav class="navbar navbar-expand-md fixed-top" id="navbar" data-bs-theme="dark">
             <div class="container">
                 <!--Set the brand icon to show on all devices but the brand name text to only show on larger screens. No change when hover over though-->
@@ -58,11 +57,11 @@
                 </div>
             </div>
         </nav>
-    </header>
 
-    <main>
+
+    
     <!--hero image-->
-        <section id="hero">
+        <header id="hero">
             <div class="container-fluid" >
                 <div class="row">
                     <div class="col-12" id="hero-text-background">
@@ -72,8 +71,8 @@
                     </div>
                 </div>
             </div>
-        </section>
-
+        </header>
+    <main>
     <!--about section-->
         <section class="section" id="about">
             <h2 class="hidden-text">About</h2>
@@ -328,21 +327,21 @@
                         <div class="row justifiy-content-start mb-4 g-2 ms-3 me-3 ms-md-0 me-md-0 ms-xl-4 me-xl-4">
                             <div class=" col-12 col-md-4 ">
                                 <label for="name" class="form-label">Name<span class="required">*</span></label>
-                                <input type="text" class="form-control" id="name" name="name" required placeholder="Joe Bloggs">
+                                <input type="text" class="form-control" id="name" name="name" required placeholder="Joe Bloggs" autocomplete="name">
                             </div>
                             <div class=" col-12 col-md-4 col-lg-4">
                                 <label for="email" class="form-label">email<span class="required">*</span></label>
-                                <input type="email" class="form-control" id="email" name="email" required placeholder="name@gmail.com">
+                                <input type="email" class="form-control" id="email" name="email" required placeholder="name@gmail.com" autocomplete="email">
                             </div>
                             <div class=" col-12 col-md-4 col-lg-4">
                                 <label for="phone" class="form-label">Phone<span class="required">*</span></label>
-                                <input type="number" class="form-control" id="phone" name="phone" required placeholder="07700 112233">
+                                <input type="number" class="form-control" id="phone" name="phone" required placeholder="07700 112233" autocomplete="tel-national">
                             </div>
                         </div>
                         <div class="row justifiy-content-start mb-4 g-2 ms-3 me-3 ms-md-0 me-md-0 ms-xl-4 me-xl-4">
                             <div class="col-12 col-md-6">
                                 <label for="address1" class="form-label">Address<span class="required">*</span></label>
-                                <input type="text" class="form-control" id="address1" name="address1" required placeholder="house number and street name">
+                                <input type="text" class="form-control" id="address1" name="address1" required placeholder="house number and street name" autocomplete="street-address">
                             </div>
                             <div class="col-12 col-md-4">
                                 <label for="address2" class="form-label">Location<span class="required">*</span></label>
@@ -357,7 +356,7 @@
                             </div>
                             <div class="col-12 col-md-2">
                                 <label for="postcode" class="form-label">Postcode<span class="required">*</span></label>
-                                <input type="text" class="form-control" id="postcode" name="postcode" required placeholder="B91" aria-describedby="address-help">
+                                <input type="text" class="form-control" id="postcode" name="postcode" required placeholder="B91" aria-describedby="address-help" autocomplete="postal-code">
                             </div>
                             <div class="col-12 mb-3">
                                 <span class="form-info-text form-text" id="address-help"> Please note, I can only cover properties in postcodes B91, B92 and B93.  If you live close to the boundary then I may be able to visit.</span>

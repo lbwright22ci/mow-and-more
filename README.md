@@ -298,6 +298,8 @@ Bugs identified while writing the code.
 |Formatting the carousel with rounded corners| fixed| For consistency of image styling throughout the page the carousel images need to have the same border radius as service card images.| Apply custom CSS style to all `img` which are descendants of the About section (with ID #about).  Applying styling to #about descendants with class '.carousel-item' did not work.|
 |Date and costs not spaced evenly at the base of service cards| fixed| When written as two `span` groups the date icon and text next to the price icon and text did not display equally spaced along the bottom of the service cards.| Re-write this part of the code as two `div`s and add them to a parent `div` with flexbox styling `justify-content: space-evenly`|
 |Phone number field in contact form accepting text input| fixed| When using `input type="tel"` it was possible to submit the form with text (rather than numbers) in the Phone field of the contact form.| Change to `input type="number"`.  Note `type="tel"` is not recognised by all browsers.|
+|UX warning from Chrome Dev tools: form input fields do not have autocomplete enabled|fixed |With some browsers on some devices, without `autocomplete` attribute being defined, the form might be incorrectly completed| Add the `autocomplete` atribute too name, phone number, email and address fields of the form |
+|Lighthouse warning _Found an &lt;h1&gt; tag within an &lt;article&gt;, &lt;aside&gt;, &lt;nav&gt;, or &lt;section&gt; which does not have a specified font-size._ |Fixed|Adding styling css code [suggested](https://developer.mozilla.org/en-US/blog/h1-element-styles/) did not solve the problem| Changing the hero image and `h1` title from a `section` to the `header` resolved the problem|
 |Check boxes in the contact form are not compulsary| not fixed| Desired outcome is that the user needs to select at least one of the service checkboxes that they are interested in to be able to submit the form. | It is not possible to resolve this without the use of extra JS code.  With HTML alone, the only options are to make all checkboxes mandatory (which isn't appropriate as not every user will want to ask about every service) or to use the radio function where a user can only select one option (also not appropriate as users may wish to inquire about both lawn mowing and another job).|
 
 [Back to top](#mow-and-more)
@@ -415,7 +417,6 @@ Link to PDF for manually testing on different browsers and device sizes.
 
 * Images
     * [IconScout](https://iconscout.com)
-    * [Icons8](https://icons8.com)
     * [Pixabay](https://pixabay.com)
     * [FreePix](https://www.freepik.com/)
     * [StockAdobe](https://stock.adobe.com)
@@ -433,6 +434,7 @@ Link to PDF for manually testing on different browsers and device sizes.
 
 * Code
     * [W3 Schools](https://www.w3schools.com/) 
-    * Code Institute
+    * [Code Institute](https://learn.codeinstitute.net/)
+    * [mdn web docs](https://developer.mozilla.org/)
 
 [Back to top](#mow-and-more)
