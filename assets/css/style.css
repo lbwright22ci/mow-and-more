@@ -37,7 +37,9 @@ h3 {
 
 .section {
     padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
+    padding-left: 0.5rem;
+    padding-right:0.5rem;
     background-image: url(../images/section-background.webp);
     background-repeat: no-repeat;
     background-position: bottom center;
@@ -201,6 +203,15 @@ h3 {
     color: var(--primary-color);
 }
 
+.section-bob {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    background-image: url(../images/section-background.webp);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: auto 36px;
+}
+
 /* About section style rules*/
 .gardener-portrait {
     background: url(../images/gardener-freepix.webp) no-repeat center center/cover;
@@ -215,6 +226,7 @@ h3 {
 
 #about ul {
     list-style-type: none;
+    padding-left:0;
 }
 
 #about li {
