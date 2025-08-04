@@ -48,10 +48,20 @@ h3{
     display:none;
 }
 
+#hide-mobile-tablet{
+    display:none;
+}
+
 #logo{
     width:30px;
     height:30px;
     margin-right: 20px;
+}
+
+.fa-solid,
+.fa-brands{
+    margin-right:10px;
+    color:var(--highlight-color);
 }
 
 /* Buttons*/
@@ -90,12 +100,6 @@ h3{
     -webkit-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
-}
-
-.fa-solid,
-.fa-brands{
-    margin-right:10px;
-    color:var(--highlight-color);
 }
 
 /* Styling for quotes*/
@@ -383,7 +387,7 @@ h3{
 }
 
 /* Success newsletter page*/
-#quote-social i{
+#quote-social .fa-brands{
     color:var(--secondary-color);
 }
 #quote-social{
@@ -418,15 +422,11 @@ h3{
     }
 }
 
-/*hide nav bar brand text on mobile and tablet*/
-@media screen and (max-width:991px){
-    #hide-mobile-tablet{
-        display:none;
-    }
-}
-
 /*large screens 992px*/
 @media screen and (min-width:992px){
+    #hide-mobile-tablet{
+        display:inline;
+    }
 
     .gardener-portrait{
         width: 45vw;
