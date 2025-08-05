@@ -35,17 +35,58 @@ h3 {
     font-weight: 700;
 }
 
-.section {
-    padding-top: 2rem;
-    padding-bottom: 4rem;
-    padding-left: 0.5rem;
-    padding-right:0.5rem;
-    background-image: url(../images/section-background.webp);
-    background-repeat: no-repeat;
-    background-position: bottom center;
-    background-size: auto 36px;
+.section-start {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+.section-inner{
+    padding-left: 1.25rem;
+    padding-right:1.25rem;
+    padding-top:2rem;
 }
 
+.section-heading{
+    background-image: linear-gradient(to top right, transparent, var(--secondary-highlight), var(--secondary-color));
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 100vw 6rem;
+    height: 6rem;
+    width:100vw;
+    padding:0;
+    position: relative;
+}
+
+.section-break{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    position:absolute;
+    left:0;
+    bottom:0;
+}
+
+.brand-circle{
+    background-color: var(--secondary-color);
+    height:4rem;
+    width:4rem;
+    border-radius: 50%;
+}
+.brand-image{
+    padding: 0.6rem 0.4rem 0 0.8rem;
+    width:3.8rem;
+    height:auto;
+}
+.section-heading-text h2{
+    margin-bottom:0;
+margin-left:0.25rem;
+}
+.section-heading-text hr{
+    width:150%;
+    margin:0;
+    border-top:1px solid var(--secondary-color);
+    opacity: 1;
+}
 .hidden-text {
     display: none;
 }
@@ -203,14 +244,6 @@ h3 {
     color: var(--primary-color);
 }
 
-.section-bob {
-    padding-top: 2rem;
-    padding-bottom: 4rem;
-    background-image: url(../images/section-background.webp);
-    background-repeat: no-repeat;
-    background-position: bottom center;
-    background-size: auto 36px;
-}
 
 /* About section style rules*/
 .gardener-portrait {
@@ -462,8 +495,6 @@ h3 {
 
     #about li:hover {
         font-size: 120%;
-        /* padding-top:10px;
-        padding-bottom:20px; */
         color: var(--highlight-color);
         -webkit-transition: all 0.7s ease-in;
         -o-transition: all 0.7s ease-in;
