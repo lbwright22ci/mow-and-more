@@ -25,7 +25,6 @@ h1,
 h2,
 h3 {
     color: var(--secondary-color);
-    font-weight: 700;
     margin-bottom: 20px;
 }
 
@@ -49,8 +48,8 @@ h3 {
     background-image: linear-gradient(to top right, transparent, var(--secondary-highlight), var(--secondary-color));
     background-repeat: no-repeat;
     background-position: top right;
-    background-size: 100vw 6rem;
-    height: 6rem;
+    background-size: 100vw 10rem;
+    height: 8rem;
     width:100vw;
     padding:0;
     position: relative;
@@ -510,6 +509,14 @@ font-weight:500;
         transition: all 0.7s ease-in;
     }
 
+    #offer{
+        min-height:255px;
+    }
+
+    #why-choose{
+        min-height: 370px;
+    }
+
     /* Services section styling*/
     #service-card-2 .card-body,
     #service-card-1 .card-body {
@@ -544,6 +551,16 @@ font-weight:500;
 /* Extra large screens: 1200 px and above (laptop)*/
 @media screen and (min-width:1200px) {
 
+    .section-heading{
+        height: 10rem;
+        background-size: auto 12rem;
+    }
+
+    /* About section styling */
+    #why-choose{
+        min-height: inherit;
+    }
+
     /* Services section styling*/
     #service-card-2 .card-body,
     #service-card-1 .card-body {
@@ -564,9 +581,14 @@ font-weight:500;
 /* Extra extra large screens: 1400 px and above (wide screen laptop and desktop computer screens*/
 @media screen and (min-width:1400px) {
 
+        .section-heading{
+        height: 12rem;
+        background-size: auto 14rem;
+    }
+
     /* About section styling*/
-    #why-choose {
-        margin-top: 50px;
+    .mt-xl-4 #why-choose{
+        margin-top: 5rem;
     }
 
     /* Services section styling*/
