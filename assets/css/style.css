@@ -5,12 +5,18 @@
 :root {
     --primary-font: 'Poppins', sans-serif;
     --secondary-font: 'Merriweather', serif;
-    --secondary-color: #264D32; /*dark green */
-    --highlight-color: #585423; /*  mid green */
-    --secondary-highlight: #E1E0BC; /*pale yellow green*/
-    --primary-background-color: #F0FFFF; /*off-white*/
-    --primary-highlight: #CEAB8D; /* pale tan*/
-    --primary-color: #302118; /*dark brown*/
+    --secondary-color: #264D32;
+    /*dark green */
+    --highlight-color: #585423;
+    /*  mid green */
+    --secondary-highlight: #E1E0BC;
+    /*pale yellow green*/
+    --primary-background-color: #F0FFFF;
+    /*off-white*/
+    --primary-highlight: #CEAB8D;
+    /* pale tan*/
+    --primary-color: #302118;
+    /*dark brown*/
 }
 
 /* Generic style rules*/
@@ -21,11 +27,15 @@ body {
     margin-top: 66px;
 }
 
+html{
+    font-size:16px;
+}
+
 h1,
 h2,
 h3 {
     color: var(--secondary-color);
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .brand-text {
@@ -38,58 +48,63 @@ h3 {
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
-.section-inner{
+
+.section-inner {
     padding-left: 1.25rem;
-    padding-right:1.25rem;
-    padding-top:2rem;
+    padding-right: 1.25rem;
+    padding-top: 2rem;
 }
 
-.section-heading{
+.section-heading {
     background-image: linear-gradient(to top right, transparent, var(--secondary-highlight), var(--secondary-color));
     background-repeat: no-repeat;
     background-position: top right;
     background-size: 100vw 10rem;
     height: 8rem;
-    width:100vw;
-    padding:0;
+    width: 100vw;
+    padding: 0;
     position: relative;
 }
 
-.section-break{
-    display:flex;
+.section-break {
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    position:absolute;
-    left:0;
-    bottom:0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
 
-.brand-circle{
+.brand-circle {
     background-color: var(--secondary-color);
-    height:4rem;
-    width:4rem;
+    height: 4rem;
+    width: 4rem;
     border-radius: 50%;
 }
-.brand-image{
+
+.brand-image {
     padding: 0.6rem 0.4rem 0 0.8rem;
-    width:3.8rem;
-    height:auto;
+    width: 3.8rem;
+    height: auto;
 }
+
 .section-heading-text h2,
-.section-heading-text h1{
-    margin-bottom:0;
-margin-left:0.25rem;
-font-weight:500;
-font-family: var(--secondary-font);
+.section-heading-text h1 {
+    margin-bottom: 0;
+    margin-left: 0.25rem;
+    font-weight: 500;
+    font-family: var(--secondary-font);
 }
-.section-heading-text hr{
-    width:150%;
-    max-width:75vw;
-    margin:0;
-    border-top:1px solid var(--secondary-color);
+
+.section-heading-text hr {
+    width: 150%;
+    max-width: 75vw;
+    margin: 0;
+    border-top: 1px solid var(--secondary-color);
     opacity: 1;
 }
+
 .hidden-text {
     display: none;
 }
@@ -99,14 +114,14 @@ font-family: var(--secondary-font);
 }
 
 #logo {
-    width: 30px;
-    height: 30px;
-    margin-right: 20px;
+    width: 1.875rem;
+    height: 1.875rem;
+    margin-right: 1.25rem;
 }
 
 .fa-solid,
 .fa-brands {
-    margin-right: 10px;
+    margin-right: 0.625rem;
     color: var(--highlight-color);
 }
 
@@ -141,7 +156,7 @@ font-family: var(--secondary-font);
 
 .btn-reset:hover {
     border: 2px solid var(--primary-background-color);
-    font-size: 110%;
+    font-size: 1.1rem;
     text-decoration: none;
     -webkit-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
@@ -151,9 +166,9 @@ font-family: var(--secondary-font);
 /* Styling for quotes*/
 .quotes {
     color: var(--secondary-color);
-    padding: 20px 10px 20px 40px;
-    margin: 20px 5px 20px 40px;
-    border-radius: 20px 20px 20px 0;
+    padding: 1.25rem 0.625rem 1.25rem 2.5rem;
+    margin: 1.25rem 0.3125rem 1.25rem 2.5rem;
+    border-radius: 1.25rem 1.25rem 1.25rem 0;
     border: 1px double var(--highlight-color);
     position: relative;
     -webkit-box-shadow: 5px 5px 5px var(--secondary-highlight);
@@ -162,11 +177,11 @@ font-family: var(--secondary-font);
 
 .quotes .speech-marks {
     color: var(--highlight-color);
-    font-size: 300%;
+    font-size: 3rem;
     background-color: var(--primary-background-color);
     position: absolute;
-    top: -30px;
-    left: -20px;
+    top: -1.875rem;
+    left: -1.25rem;
 }
 
 .quotes .author {
@@ -224,17 +239,17 @@ font-family: var(--secondary-font);
 #hero {
     background: url(../images/hero-image.webp) no-repeat center center/cover fixed;
     height: 70vh;
-    width: 100%;
+    width: 100vw;
     position: relative;
 }
 
 #hero-text-background {
     background-color: #F0FFFF9B;
     position: absolute;
-    padding: 20px;
-    bottom: 100px;
-    max-width: 80%;
-    border-radius: 0px 20px 20px 0px;
+    padding: 1.25rem;
+    bottom: 6.25rem;
+    max-width: 80vw;
+    border-radius: 0px 1.25rem 1.25rem 0px;
 }
 
 #title-text {
@@ -256,13 +271,13 @@ font-family: var(--secondary-font);
     border-radius: 50%;
     -webkit-box-shadow: 5px 5px 5px var(--secondary-highlight);
     box-shadow: 5px 5px 5px var(--secondary-highlight);
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 18.75rem;
+    max-height: 18.75rem;
 }
 
 #about ul {
     list-style-type: none;
-    padding-left:0;
+    padding-left: 0;
 }
 
 #about li {
@@ -321,7 +336,7 @@ font-family: var(--secondary-font);
 
 /* Testimonials section style rules*/
 .testimonial-images img {
-    max-width: 150px;
+    max-width: 9.375rem;
 }
 
 .testimonial-images {
@@ -343,7 +358,7 @@ font-family: var(--secondary-font);
 }
 
 #contact textarea {
-    height: 150px;
+    height: 9.375rem;
 }
 
 .form-control,
@@ -367,7 +382,7 @@ font-family: var(--secondary-font);
     background-color: var(--secondary-color);
 }
 
-#contact{
+#contact {
     padding-bottom: 4rem;
     background-image: url(../images/section-background.webp);
     background-repeat: no-repeat;
@@ -381,7 +396,7 @@ font-family: var(--secondary-font);
     background-color: var(--secondary-color);
     color: var(--primary-background-color);
     font-size: 0.8rem;
-    padding-top: 20px;
+    padding-top: 1.25rem;
 }
 
 .page-footer .display-6 {
@@ -422,7 +437,7 @@ font-family: var(--secondary-font);
 }
 
 .qualifications img {
-    max-height: 50px;
+    max-height: 3.125rem;
     background-color: var(--primary-background-color);
 }
 
@@ -440,15 +455,16 @@ font-family: var(--secondary-font);
 
 /* Newsletter modal*/
 .modal-body .gardener-portrait {
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 6.25rem;
+    max-height: 6.25rem;
 }
 
 /* Success newsletter page*/
 
-.success-header .section-start{
-    padding-top:0;
+.success-header .section-start {
+    padding-top: 0;
 }
+
 #quote-social .fa-brands {
     color: var(--secondary-color);
 }
@@ -505,7 +521,7 @@ font-family: var(--secondary-font);
     }
 
     #about li:hover {
-        font-size: 120%;
+        font-size: 1.2rem;
         color: var(--highlight-color);
         -webkit-transition: all 0.7s ease-in;
         -o-transition: all 0.7s ease-in;
@@ -519,11 +535,11 @@ font-family: var(--secondary-font);
         transition: all 0.7s ease-in;
     }
 
-    #offer{
-        min-height:255px;
+    #offer {
+        min-height: 255px;
     }
 
-    #why-choose{
+    #why-choose {
         min-height: 370px;
     }
 
@@ -561,13 +577,13 @@ font-family: var(--secondary-font);
 /* Extra large screens: 1200 px and above (laptop)*/
 @media screen and (min-width:1200px) {
 
-    .section-heading{
+    .section-heading {
         height: 10rem;
         background-size: auto 12rem;
     }
 
     /* About section styling */
-    #why-choose{
+    #why-choose {
         min-height: inherit;
     }
 
@@ -591,7 +607,7 @@ font-family: var(--secondary-font);
 /* Extra extra large screens: 1400 px and above (wide screen laptop and desktop computer screens*/
 @media screen and (min-width:1400px) {
 
-        .section-heading{
+    .section-heading {
         height: 12rem;
         background-size: auto 14rem;
     }
