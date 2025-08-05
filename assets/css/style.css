@@ -36,7 +36,7 @@ h3 {
 }
 
 .section-start {
-    padding-top: 4rem;
+    padding-top: 2rem;
     padding-bottom: 2rem;
 }
 .section-inner{
@@ -80,9 +80,11 @@ h3 {
 .section-heading-text h2{
     margin-bottom:0;
 margin-left:0.25rem;
+font-weight:500;
 }
 .section-heading-text hr{
     width:150%;
+    max-width:75vw;
     margin:0;
     border-top:1px solid var(--secondary-color);
     opacity: 1;
@@ -453,7 +455,7 @@ margin-left:0.25rem;
 @media screen and (min-width:768px) {
 
     /* General styles*/
-    .section {
+    .section-start {
         padding-top: 4rem;
     }
 
