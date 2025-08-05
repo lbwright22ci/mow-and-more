@@ -76,10 +76,12 @@ h3 {
     width:3.8rem;
     height:auto;
 }
-.section-heading-text h2{
+.section-heading-text h2,
+.section-heading-text h1{
     margin-bottom:0;
 margin-left:0.25rem;
 font-weight:500;
+font-family: var(--secondary-font);
 }
 .section-heading-text hr{
     width:150%;
@@ -122,7 +124,7 @@ font-weight:500;
     color: var(--primary-background-color);
     background-color: var(--primary-color);
     border: 2px solid var(--primary-background-color);
-    font-size: 110%;
+    font-size: 1.1rem;
     text-decoration: none;
     -webkit-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
@@ -443,6 +445,10 @@ font-weight:500;
 }
 
 /* Success newsletter page*/
+
+.success-header .section-start{
+    padding-top:0;
+}
 #quote-social .fa-brands {
     color: var(--secondary-color);
 }
