@@ -587,8 +587,8 @@ font-weight:500;
     }
 
     /* About section styling*/
-    .mt-xl-4 #why-choose{
-        margin-top: 5rem;
+    #about .mt-xxl-4 {
+        margin-top: 5rem !important;
     }
 
     /* Services section styling*/
