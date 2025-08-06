@@ -476,6 +476,21 @@ h3 {
 
 /* Responsive Styling */
 
+/* Older style small phones which are less than 620px tall short phones */ 
+/* Also applies to landscape orientation of all phones */
+@media  screen and (max-height:620px) {
+
+    /*Hero section styling*/
+    #hero-text-background{
+        bottom:1rem;
+        padding:0.5rem;
+    }
+    #hero h2{
+        margin-bottom: 0;
+    }
+}
+
+
 /* Medium screens: tablets (768px and above)*/
 @media screen and (min-width:768px) {
 
