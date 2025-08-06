@@ -79,7 +79,7 @@ Wireframes for the site were created using [Balsamiq](https://balsamiq.com/).  I
 
 Wireframes for tablet and laptop screens utilise the extra screen space available in comparison to mobile devices.
 
-Initial wireframes changed when the website was being built to improve the user experience.
+Initial wireframes changed when the website was being built to improve the user experience.  Specifically, clear section breaks were added.
 
 [Evolutionary wireframes for main page (all sections) on mobile, tablet and laptop](docs/design/main-page-wireframe.pdf)
 
@@ -91,7 +91,7 @@ Initial wireframes changed when the website was being built to improve the user 
 
 ### Typography
 
-* A brand font of Merriweather was chosen specifically with the target audience of the website in mind: professional and traditional.  With a high proportion of potential users being older adults the 'classic', reliable 'feel' for the brand is important.  Being a Serif font though, Merriweather is less widely used for online text.  Hence, in accordance with best practices, Merriweather was limited to the brand name only.
+* A brand font of Merriweather was chosen specifically with the target audience of the website in mind: professional and traditional.  With a high proportion of potential users being older adults the 'classic', reliable 'feel' for the brand is important.  Being a Serif font though, Merriweather is less widely used for online text.  Hence, in accordance with best practices, Merriweather was limited to the brand name and section headings only.
 * The [Font Pair](https://www.fontpair.co/all) tool was used to guide a font to be used alongside Merriweather for heading and body text: Poppins.
 * Poppins is a commonly used font with high readability, which is important for site accessibility.
 
@@ -100,8 +100,8 @@ Further typography styling rules for site consistency:
 |Text type | Bootstrap display level | Font Family | Font decoration/ styling/ weight | Colour | Notes |
 |---|---|---|---|---|---|
 |Brand name| depends on site location|Merriweather| bold, weight 700 or 800| Secondary colour||
-|H2 headings| display-3| Poppins| weight 700| Secondary colour| Use of sentence case titles and headings (rather than capitalised or uppercase text) to give the page a more approachable appeal.|
-|H3 headings| display-6| Poppins| weight 700| Secondary colour| Use of sentence case titles and headings (rather than capitalised or uppercase text) to give the page a more approachable appeal. Reduce font weight for card headings to 500.|
+|h2 section headings| display-3| Merriweather| weight 500| Secondary colour| Use of sentence case titles and headings (rather than capitalised or uppercase text) to give the page a more approachable appeal.|
+|h3 headings| display-6| Poppins| weight 700| Secondary colour| Use of sentence case titles and headings (rather than capitalised or uppercase text) to give the page a more approachable appeal. Reduce font weight for card headings to 500.|
 |Quotes| paragraph text| Poppins| regular | Secondary colour| |
 |Quotes- author| paragraph text| Poppins| italic, weight 300 | highlight color| |
 |Quotes- address| paragraph text| Poppins| weight 500 | Secondary colour| |
@@ -146,7 +146,7 @@ There are two different styled buttons used on the site: the primary style which
 ### Images
 A combination of stock images and those taken myself are used on the website.  The stock images are used for the hero image and in the services section and were chosen to be a clear visual guide of the services offered by the business (lawn mowing, weeding, general gardening, hedge trimming and pressure washing).  Images for the carousel in the about section and those in the testimonials were taken by myself and are suggestive of results after the gardener has been to visit.
 
-The brand icon of the gardener with a spade was sourced for the site specifically.  This is used in the favicon, navigation bar and at the bottom of each section.
+The brand icon of the gardener with a spade was sourced for the site specifically.  This is used in the favicon, navigation bar and at the top of each section in the section heading.
 
 All photos were converted to .webp files and optimized to less than 200kB for web-viewing with the aim to optimise site performance.
 
@@ -169,7 +169,7 @@ The badges and awards/accreditations in the footer of the website are fictional.
 * [City & Guilds NPTC](https://www.nptc.org.uk/) logo
 
 ### Responsiveness
-In accordance with best practices, the website was designed mobile first.  For the main site structure, screen-size-dependent responsive styling was implemented using the Bootstrap grid system.  The same screen breakpoint dimensions were then employed for all custom CSS added.  
+In accordance with best practices, the website was designed mobile first (portrait orientation with screen heights of 621px and more).  For the main site structure, screen-size-dependent responsive styling was implemented using the Bootstrap grid system.  The same screen breakpoint dimensions were then employed for all custom CSS added.  
 
 Screen responsiveness for mouse point hovering was implemented for laptop dimensions only in most cases as a cursor tip pointer is not present on touch screen devices such as mobile and tablet.
 
@@ -184,24 +184,19 @@ The breakpoint dimensions are as follows:
 |X-Large|`xl`|&ge;1200px|
 |XX-Large|`xxl`|&ge;1400px|
 
+One additional breakpoint was implemented to ensure the text above the hero image at the top of the page was visible on 'short' screens (those such as old phones- iPhone4/5, and phones in landscape orientation) with `max-height` less than 620px.
+
 [Back to top](#mow-and-more)
 
 ## Features
 
 ### Existing Features
 
-Home Page
+The site consists of one main page with a navigation bar at the top, followed by a hero image, four information sections (about, services, testimonials and contact form) and a footer.  
 
-* Nav bar
-* Hero section
-* About section (include area)
-* Services section (include here approx pricing- don't give pricing it's own section as the business is based on quotation per job)
-* Gallery or testimonials
-* Get a quote (and what happens next)
-* Footer: social media links, professional acreditation, 
+This scrolling-type design was adopted over a paginated structure to improve user experience on mobile devices. It allows the viewer to progressively gain more information (in a logical, need-to-know basis) about the service before getting to the enquiry form in order to book.  A fixed header with a direct link to the contact form section allows those who want to jump to the enquiry form immediately to do so. The number of 'clicks' between landing on the website and submitting an inquiry is one or two at most.
 
-Success Page - for when the contact form is completed.
-
+In addition to the main page, there is a modal which opens (from a button in the website footer) from which users can request to join the newsletter and two short webpages the user is directed to after successfully submitting the newsletter subscription request and contact form respectively (a separate success page for each).  Consistent layout and styling is applied across all pages on the website.
 
 #### Header
 
@@ -301,6 +296,7 @@ Bugs identified while writing the code.
 |UX warning from Chrome Dev tools: form input fields do not have autocomplete enabled|fixed |With some browsers on some devices, without `autocomplete` attribute being defined, the form might be incorrectly completed| Add the `autocomplete` atribute too name, phone number, email and address fields of the form |
 |Lighthouse warning _Found an &lt;h1&gt; tag within an &lt;article&gt;, &lt;aside&gt;, &lt;nav&gt;, or &lt;section&gt; which does not have a specified font-size._ |Fixed|Adding styling css code [suggested](https://developer.mozilla.org/en-US/blog/h1-element-styles/) did not solve the problem| Changing the hero image and `h1` title from a `section` to the `header` resolved the problem|
 |Check boxes in the contact form are not compulsary| not fixed| Desired outcome is that the user needs to select at least one of the service checkboxes that they are interested in to be able to submit the form. | It is not possible to resolve this without the use of extra JS code.  With HTML alone, the only options are to make all checkboxes mandatory (which isn't appropriate as not every user will want to ask about every service) or to use the radio function where a user can only select one option (also not appropriate as users may wish to inquire about both lawn mowing and another job).|
+|Hero image text box too large on short screens such as landscape mobiles and old phones (iPhone 4 and 5)|fixed| Hero title text lies below the navigation bar and extends above the top of the screen | Add responsive styling CSS based on screens with `max-width` less than 620px.|
 
 [Back to top](#mow-and-more)
 
