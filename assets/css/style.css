@@ -560,12 +560,16 @@ h3 {
     }
 
     #testimonials .quotes:hover {
-        font-size: 120%;
+        font-size: 1.2rem;
         -webkit-box-shadow: 5px 5px 5px var(--primary-highlight);
         box-shadow: 5px 5px 5px var(--primary-highlight);
         -webkit-transition: all 0.7s ease-in;
         -o-transition: all 0.7s ease-in;
         transition: all 0.7s ease-in;
+    }
+
+    #testimonials .col-md-6{
+        min-height: 380px;
     }
 
     /* Contact section styling*/
@@ -601,6 +605,9 @@ h3 {
     /* Testimonials section styling*/
     #testimonials .quotes {
         min-height: 406px;
+    }
+    #testimonials .col-xl-3{
+        min-height: 520px;
     }
 }
 
