@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 /* Font used on project downloaded from Google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
@@ -56,6 +63,8 @@ h3 {
 }
 
 .section-heading {
+    background-image: -webkit-gradient(linear, left bottom, right top, from(transparent), color-stop(var(--secondary-highlight)), to(var(--secondary-color)));
+    background-image: -o-linear-gradient(bottom left, transparent, var(--secondary-highlight), var(--secondary-color));
     background-image: linear-gradient(to top right, transparent, var(--secondary-highlight), var(--secondary-color));
     background-repeat: no-repeat;
     background-position: top right;
@@ -67,10 +76,19 @@ h3 {
 }
 
 .section-break {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     position: absolute;
     left: 0;
     bottom: 0;
