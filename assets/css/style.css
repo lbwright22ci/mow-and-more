@@ -451,6 +451,10 @@ h3 {
     background-position: bottom center;
 }
 
+#contact legend{
+    font-size:1rem;
+}
+
 /* Footer style rules*/
 
 .page-footer {
