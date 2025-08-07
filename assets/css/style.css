@@ -316,6 +316,49 @@ h3 {
     border-radius: 0.375rem;
 }
 
+#why-choose{
+    padding-top:4rem;
+}
+#about .carousel-indicators{
+    bottom:-4rem;
+}
+
+#about .carousel-indicators [data-bs-target]{
+    height:5px;
+    background-color: var(--highlight-color);
+    opacity: 0.6;
+}
+
+#about .carousel-indicators .active{
+    height:15px;
+    background-color: var(--primary-color);
+    opacity: 1;
+    border-bottom: 5px solid var(--primary-color);
+    border-top: 5px solid var(--primary-color);
+    border-radius: 0.3125rem;
+}
+#about #carousel-garden .fa-solid{
+    color:white;
+    opacity: 0.8;
+    font-size:2rem;
+}
+#about #carousel-garden .fa-solid:hover{
+    opacity: 1;
+}
+#about #carousel-garden .carousel-control-next-icon,
+#about #carousel-garden .carousel-control-prev-icon{
+    height:2rem;
+    width:2rem;
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+    background-image: none;
+}
+
+#about #carousel-garden .carousel-control-next,
+#about #carousel-garden .carousel-control-prev{
+    opacity: 1;
+}
+
 /* Service section style rules*/
 
 #services h3 {
@@ -573,6 +616,7 @@ h3 {
     }
 
     #why-choose {
+        padding-top:0;
         min-height: 370px;
     }
 
