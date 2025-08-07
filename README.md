@@ -273,9 +273,13 @@ text
 * [X Convert](https://www.xconvert.com/)
 * [Contrast-grid eightshapes](https://contrast-grid.eightshapes.com)
 * [Am I responsive](https://ui.dev/amiresponsive)
-* Responsive Design Checker
+* [Responsive Test Tool](https://responsivetesttool.com/)
 * [WAVE Accessibility Evaluation Tool](https://wave.webaim.org/)
-
+* [Fireshot Capture](https://getfireshot.com/)
+* [Lighthouse](https://developer.chrome.com/docs/lighthouse)
+* [Chrome dev tools](https://developer.chrome.com/docs/devtools)
+* [Edge dev tools](https://learn.microsoft.com/en-us/microsoft-edge/devtools/overview)
+* Toc 
 
 [Back to top](#mow-and-more)
 
@@ -337,34 +341,34 @@ The CSS code written specifically for the site (style.css) was validated using [
 
 |**User Story**|**Pass?**|**Acceptance criteria**|**Screenshot**|
 |---|---|---|---|
-|Easy navigation and responsive design to the website|| Logical navigation to access all sections and pages of the website and locate key information.|[name for screenshot](url-link-to-pdf)|
-||| Website is responsive on all devices (mobile, tablet and laptop).||
-|   || Browser favicon for branding. |   |
-|Key benefits of using the service|| Hero section to the main page with eye catching image and text|[name for screenshot](url-link-to-pdf)|
-| | |Easy to read bullet point or short text statements which highlight the key features which set this business apart from others| |
-| || Due to aiming at 'local' and 'older adult' customers a photo of the gardener and making the user feel like they know the person who will be doing the job will inspire confidence| |
-|Business information| |Clearly stated the postcodes or geographical areas covered|[name for screenshot](url-link-to-pdf)|
-| | |Clearly stated business hours (Mon-Fri 8 am - 5 pm)| |
-|Engaging descriptions of the services offered|| Key benefits of employing this gardening business in simple, easy to read, eye catching text close to the top of the webpage|[name for screenshot](url-link-to-pdf)|
-|| |More in depth information about specific services along with an image in a dedicated 'Service' section.||
-|| |Advice on periods of the year when a service is available: this is important for gardening when some jobs may not be apropriate in winter||
-|High quality images of the services offered| |High quality images used across the site.|[name for screenshot](url-link-to-pdf)|
-| | |Links to social media profiles which will display photos of current or recent jobs.| |
-|Estimated pricing| |Pricing per hour for each type of the four common services displayed visibly.  The exact cost will depend on the size of the job, but this will give customers a guideline.|[name for screenshot](url-link-to-pdf)|
-|Testimonials from past customers| |A range of short quotes from existing or past customers which talk about their experience of the different services they opted for.|[name for screenshot](url-link-to-pdf)|
-|| |Testimonials should be styled in a manner consistent across the internet to inspire confidence: image, star rating, quote, name and some kind of address of the customer||
-|Inquiry form to get a quote for my garden| |Inquiry form easily found accross the site.|[name for screenshot](url-link-to-pdf)|
-|| |Inquiry form is intutive and accessible (including accessible to those with screen readers). ||
-|| |Once submitted the form takes the user through to a success page.||
-|| |Collect key information (required): name, email, phone number, address of property, service interested in (lawn care, hedge maintenance, weeding, patio & drive cleaning)||
-|| |Additional field for the customer to leave any extra information (optional).||
-|| |Option on the form to say how they want to hear back: phone call or email (required).||
-|Alternative methods of communication| |Direct contact email address and phone number located in website footer (standard location)|[name for screenshot](url-link-to-pdf)|
-| | |Radio button required field for the inquiry form which allows potential customers to toggle between an email reply to book a quote and a phone call reply| |
-|Keeping up-to-date with current projects and offers| |Social media links found in the footer of the website (standard location)|[name for screenshot](url-link-to-pdf)|
-| | |Pop up modal in the website footer for users to subscribe to a newsletter| |
-|Professional accreditation and certification| |Accreditation badges with links to relevant sites along with logos of significant products used (with links) found in the footer of the website (standard location)|[name for screenshot](url-link-to-pdf)|
-|What happens next| |Above the inquiry form (and on the form submission 'Success Page') a simple step guide of what a customer is to expect (1. complete form, 2. email or phone call back to arrange a time to meet and assess for a quote, 3. get a quote and set a time for the job to be done, 4. Job done; can cancel or rearrange at any point.)|[name for screenshot](url-link-to-pdf)|
+|Easy navigation and responsive design to the website| Pass| Logical navigation to access all sections and pages of the website and locate key information.|[Navigation bar on desktop](docs/screenshots/navbar.png)|
+|| Pass | Website is responsive on all devices (mobile, tablet and laptop).| [Whole page layout for mobile](docs/screenshots/mobile-whole-page-fireshot-capture.png). [Whole page layout for tablet](docs/screenshots/tablet-whole-page-fireshot-capture.png). [Whole page layout for desktop](docs/screenshots/laptop-whole-page-fireshot-capture.png)|
+|| Pass | Browser favicon for branding. |[Favicon on Chrome browser tab](docs/screenshots/favicon.png)   |
+|Key benefits of using the service| Pass| Hero section to the main page with eye catching image and text|[Screen shot of top of home page on desktop including Hero image region](docs/screenshots/page-top.png)|
+| | Pass |Easy to read bullet point or short text statements which highlight the key features which set this business apart from others| [Screen shot of 'About' section on desktop](docs/screenshots/about-section-desktop.png) |
+| |Pass| Due to aiming at 'local' and 'older adult' customers a photo of the gardener and making the user feel like they know the person who will be doing the job will inspire confidence|[Screen shot of introduction region on home page](docs/screenshots/gardener-quote-home-desktop.png) |
+|Business information| Pass |Clearly stated the postcodes or geographical areas covered|[Screen shot of business information in the footer](docs/screenshots/business-info.png)|
+| | Pass |Clearly stated business hours (Mon-Fri 8 am - 5 pm)| [Screen shot of business information in the footer](docs/screenshots/business-info.png) |
+|Engaging descriptions of the services offered|Pass| Key benefits of employing this gardening business in simple, easy to read, eye catching text close to the top of the webpage|[Screen shot of 'Why choose Mow & More'](docs/screenshots/benefits-about-desktop.png)|
+|| Pass |More in depth information about specific services along with an image in a dedicated 'Service' section.|[Screen shot of Services section on desktop](docs/screenshots/services-section-desktop.png)|
+|| Pass |Advice on periods of the year when a service is available: this is important for gardening when some jobs may not be apropriate in winter| [Screen shot of Services section on desktop](docs/screenshots/services-section-desktop.png) |
+|High quality images of the services offered| Pass |High quality images used across the site.|[Screen shot of carousel of images from past jobs](docs/screenshots/carousel-desktop.png)|
+| | Pass |Links to social media profiles which will display photos of current or recent jobs.| [Screen shot of social media links in the site footer](docs/screenshots/social-links.png) |
+|Estimated pricing| Pass |Pricing per hour for each type of the four common services displayed visibly.  The exact cost will depend on the size of the job, but this will give customers a guideline.|[Screen shot of Services section on desktop](docs/screenshots/services-section-desktop.png)|
+|Testimonials from past customers| Pass |A range of short quotes from existing or past customers which talk about their experience of the different services they opted for.|[Screen shot of Testimonials section](docs/screenshots/testimonials-desktop.png)|
+|| Pass |Testimonials should be styled in a manner consistent across the internet to inspire confidence: image, star rating, quote, name and some kind of address of the customer| [Screen shot of Testimonials section](docs/screenshots/testimonials-desktop.png)|
+|Inquiry form to get a quote for my garden| Pass |Inquiry form easily found accross the site.|[Button to contact form found in the navigation bar fixed to the top of the page](docs/screenshots/navbar.png)|
+|| Pass |Inquiry form is intutive and accessible (including accessible to those with screen readers). |[Screen shot of Contact form](docs/screenshots/contact-form-desktop.png)|
+|| Pass |Once submitted the form takes the user through to a success page.|[Screen shot of contact form success page on laptop](docs/screenshots/laptop-whole-page-success-contact.png)|
+|| Pass |Collect key information (required): name, email, phone number, address of property, service interested in (lawn care, hedge maintenance, weeding, patio & drive cleaning)| [Screen shot of Contact form](docs/screenshots/contact-form-desktop.png)|
+|| Pass |Additional field for the customer to leave any extra information (optional).| [Screen shot of Contact form](docs/screenshots/contact-form-desktop.png)|
+|| Pass |Option on the form to say how they want to hear back: phone call or email (required).| [Screen shot of Contact form](docs/screenshots/contact-form-desktop.png)|
+|Alternative methods of communication| Pass |Direct contact email address and phone number located in website footer (standard location)|[Screen shot of direct contact information in footer](docs/screenshots/direct-contact-info.png)|
+| | Pass |Radio button required field for the inquiry form which allows potential customers to toggle between an email reply to book a quote and a phone call reply| [Screen shot of Contact form](docs/screenshots/contact-form-desktop.png)|
+|Keeping up-to-date with current projects and offers| Pass |Social media links found in the footer of the website (standard location)|[Screen shot for social media icons in the footer](docs/screenshots/social-links.png)|
+| | Pass |Pop up modal in the website footer for users to subscribe to a newsletter| [Screen shot of button link in footer to subscribe to newsletter](docs/screenshots/newsletter-modal-open.png). [Screen shot of open newsletter subscription modal](docs/screenshots/laptop-open-modal.png) |
+|Professional accreditation and certification| Pass |Accreditation badges with links to relevant sites along with logos of significant products used (with links) found in the footer of the website (standard location)|[Screen shot of professional accreditation](docs/screenshots/accreditations.png)|
+|What happens next| Pass |Above the inquiry form (and on the form submission 'Success Page') a simple step guide of what a customer is to expect (1. complete form, 2. email or phone call back to arrange a time to meet and assess for a quote, 3. get a quote and set a time for the job to be done, 4. Job done; can cancel or rearrange at any point.)|[Screen shot of Contact form](docs/screenshots/contact-form-desktop.png). [Screen shot of contact form success page](docs/screenshots/laptop-whole-page-success-contact.png)|
 
 [Back to top](#mow-and-more)
 
@@ -382,15 +386,35 @@ Three issues were highlighted:
 * The two contrast errors relate to the visual contrast between the carousel previous/next image icon arrows on the left/right of the photos, respectively.  The Bootstrap default line arrows were replaced with a solid circle icon from FontAwesome and both the opacity and font size increased to make these more apparent.  The carousel image slider bar was also moved below the images and increased in size.  There are also the appropriate Aria labels for controlling carousel movement via a screen reader.
 * A warning for a deduntant (repeated) HTML link in the navigation bar was highlighted.  This refers to both the brand logo on the left and the menu item 'Home' taking the user to the same place.  It is standard practice to present both options in a navigation bar.
 
-
 [Back to top](#mow-and-more)
 
 ### Lighthouse Testing
 
-* Performance
-* Accessibility
-* Best Practices
-* SEO 
+The Mow & More website was tested in two browsers- Chrome and Edge- using the Dev tool ['Lighthouse'](https://developer.chrome.com/docs/lighthouse).  This tool measures a website on four criteria:
+
+* Performance- how quickly a site will load.
+* Accessibility- whether a site is accessible to all users, including those with diverse needs. 
+* Best Practices- whether a site is designed to a standard consistent with modern user experience (navigation, structure etc).
+* SEO- whether a the website code is optimized to give the best search engine rankings.
+
+The Lighthouse tests for desktop, analysed in Chrome were:
+![Desktop Lighthouse results for Chrome](docs/testing/lighthouse-total-chrome-desktop.png).
+
+The warnings generated for performance metrics were:
+* Improve image delivery: all images were optimised prior to use and all are under 200kB in size.  Hence any performance enhancement which would be gained by reducing them further would be at the detriment of the user experience as the images would appear low resolution.
+* Font display: this warning relates to Font Awesome icons which are independent of the code written specifically for the website.
+* Render blocking requests: this warning relates to external CSS libraries (Bootstrap and Google Fonts).
+* Network dependency tree: this warning relates to external libraries (Bootstrap, Google Fonts and Font Awesome)
+
+Similar results were obtained for:
+* [Desktop Lighthouse testing for Microsoft Edge](docs/testing/lighthouse-total-edge-desktop.png)
+
+Lighthouse Performance test results were 75% and 74% for mobile devices when tested in Chrome and Edge respectively.  The same issues as those identified for desktop browsing were responsible for a non-optimal performance on mobile.
+
+* [Mobile Lighthout testing for Chrome](docs/testing/lighthouse-total-chrome-mobile.png)
+* [Mobile Lighthouse testing for Microsoft Edge](docs/testing/lighthouse-total-edge-mobile.png)
+
+The 'Largest Contentful Paint' was the slowest region of the site to load in all cases and is the hero image section at the top of the home page.  Reducing the size of this image would reduce its visual impact and so the performance trade-off is necessary.
 
 [Back to top](#mow-and-more)
 
