@@ -341,7 +341,9 @@ h3 {
     color:white;
     opacity: 0.8;
     font-size:2rem;
+    margin-right:0;
 }
+
 #about #carousel-garden .fa-solid:hover{
     opacity: 1;
 }

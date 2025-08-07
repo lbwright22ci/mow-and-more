@@ -136,12 +136,12 @@ A table of the colour variants used:
 
 There are two different styled buttons used on the site: the primary style which is for 'Call to action' links (get in touch, submit the inquiry form, subscribe to the newsletter) and a secondary button for form reset.  All colour combinations pass the [Contrast Grid accessibility AAA test score](#colour-scheme).
 
-|**Button Type**|**Text colour**|**Background colour**|**Border colour**|
-|---|---|---|---|
-|Call to action| primary colour| primary highlight | primary colour|
-|Call to action: hover| primary background colour| primary colour| primary background colour|
-|Reset|  primary colour| primary background colour| primary  colour|
-|Reset: hover|  primary colour| primary background colour| primary background colour|
+|**Button Type**|**Text colour**|**Background colour**|**Border colour**|**Colour Constrast Score**|
+|---|---|---|---|---|
+|Call to action| primary colour| primary highlight | primary colour| 7.2 AAA|
+|Call to action: hover| primary background colour| primary colour| primary background colour|15 AAA|
+|Reset|  primary colour| primary background colour| primary colour| 15 AAA|
+|Reset: hover|  primary colour| primary background colour| primary background colour| 15 AAA|
 
 ### Images
 A combination of stock images and those taken myself are used on the website.  The stock images are used for the hero image and in the services section and were chosen to be a clear visual guide of the services offered by the business (lawn mowing, weeding, general gardening, hedge trimming and pressure washing).  Images for the carousel in the about section and those in the testimonials were taken by myself and are suggestive of results after the gardener has been to visit.
@@ -274,7 +274,7 @@ text
 * [Contrast-grid eightshapes](https://contrast-grid.eightshapes.com)
 * [Am I responsive](https://ui.dev/amiresponsive)
 * Responsive Design Checker
-* WAVE Accessibility Tool
+* [WAVE Accessibility Evaluation Tool](https://wave.webaim.org/)
 
 
 [Back to top](#mow-and-more)
@@ -374,9 +374,13 @@ The CSS code written specifically for the site (style.css) was validated using [
 
 ### Accessibility Testing
 
-WAVE for accessibility for users with diverse needs
+To ensure that the website is accessible to screen readers, those with impaired vision and others with diverse needs, the deployed site was evaluated using the [WAVE Accessiblity Tool](https://wave.webaim.org/). The results are presented below:
 
-Color Contrast Accessibility validation.
+![WAVE accessibility results](docs/testing/wave-accessibility.png)
+
+Three issues were highlighted:
+* The two contrast errors relate to the visual contrast between the carousel previous/next image icon arrows on the left/right of the photos, respectively.  The Bootstrap default line arrows were replaced with a solid circle icon from FontAwesome and both the opacity and font size increased to make these more apparent.  The carousel image slider bar was also moved below the images and increased in size.  There are also the appropriate Aria labels for controlling carousel movement via a screen reader.
+* A warning for a deduntant (repeated) HTML link in the navigation bar was highlighted.  This refers to both the brand logo on the left and the menu item 'Home' taking the user to the same place.  It is standard practice to present both options in a navigation bar.
 
 
 [Back to top](#mow-and-more)
