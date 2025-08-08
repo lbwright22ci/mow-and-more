@@ -664,9 +664,37 @@ For the browsers tested, the results were only unacceptable for Windows Internet
 
 ### To deploy the project
 
+Based on industry standard protocol the Mow and More website was deployed on Github pages in the early stages of development. To deploy the project on Github pages:
+
+* Visit the Mow and More repository
+* From top menu select 'Settings'
+* From the left hand menu select 'Pages'
+* Choose to Deploy from a branch and select 'Main'
+* Save changes.
+
+The website is live here: [https://lbwright22ci.github.io/mow-and-more](https://lbwright22ci.github.io/mow-and-more)
+
+Any changes made to the code are pushed to Github from VSCODE (or another IDE) and will be automatically deployed to the live site.
+
 ### To fork the project
 
+If desired the website code can be changed without effecting the current live site by 'forking' the project. This creates a replica with the same history as the original.  This might be helpful for de-bugging when it is necessary to check any changes on a live site (rather than in a local environment) but you don't want to the changes to be visible on the publically shared URL.
+
+To fork the project:
+* Locate the Mow and More respository on Github.
+* Click on 'Fork' at the top right of the page.
+* Follow the instructions to name or add a description to the new fork.
+* Select 'Create fork'
+
 ### To clone the project
+
+To clone the Mow and More repository:
+* Locate the Mow and More respository on Github.
+* Click on the green 'Code' button.
+* Copy the URL to clipboard.
+* Open your desired IDE in the correct folder.
+* In the terminal enter 'git clone' plus the your copied URL.
+
 
 [Back to top](#mow-and-more)
 
