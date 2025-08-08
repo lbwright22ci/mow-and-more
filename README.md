@@ -194,40 +194,174 @@ One additional breakpoint was implemented to ensure the text above the hero imag
 
 The site consists of one main page with a navigation bar at the top, followed by a hero image, four information sections (about, services, testimonials and contact form) and a footer.  
 
-This scrolling-type design was adopted over a paginated structure to improve user experience on mobile devices. It allows the viewer to progressively gain more information (in a logical, need-to-know basis) about the service before getting to the enquiry form in order to book.  A fixed header with a direct link to the contact form section allows those who want to jump to the enquiry form immediately to do so. The number of 'clicks' between landing on the website and submitting an inquiry is one or two at most.
+This scrolling-type design was adopted over a paginated structure to improve user experience on mobile devices. It allows the viewer to progressively gain more information (in a logical, need-to-know order) about the service before getting to the enquiry form to book to get a quote.  A navigation bar, fixed to the top of the screen, with a direct link to the contact form section allows those who want to jump to the enquiry form immediately to do so. The number of 'clicks' between landing on the website and submitting an inquiry is one or two at most.
 
 In addition to the main page, there is a modal which opens (from a button in the website footer) from which users can request to join the newsletter and two short webpages the user is directed to after successfully submitting the newsletter subscription request and contact form respectively (a separate success page for each).  Consistent layout and styling is applied across all pages on the website.
 
-#### Header
+#### Navigation Bar
 
-text
-<details>
-<summary>Header open</summary>
-![alt text](url-image "image name")
+The navigation bar is fixed to the top of the screen and has the same appearance on all three pages of the site.  On the left handside of the bar is the brand logo and on the right, the navigation menu with options: 'Home', 'About', 'Services', 'Testimonials' and 'Contact' (Contact is in a button form).
+
+Further features of the navigation bar include:
+* For optimising the best use of screen space, the navigation menu on the right of the navigation bar is collapsed into the web standard 'hamburger' icon for mobile devices.  When clicked on, the 'hamburger' expands to reveal the menu options. This re-collapses once an option has been selected.
+* On mobile and tablet devices the logo on the left handside of the navigation bar is just an image.  On laptop and larger screens, this is the image followed by the brand name.
+* Hovering over menu options on a laptop or larger screens results in slight colour change and the text becoming underlined.
+* Hovering over the 'Contact' button on laptop and larger screens results in colour inversion and enlargement.
+* For visual impact, there is a slight shadow under the navigation bar.
+
+<details><summary>Screen shots of navigation bar</summary>
+
+* [Screen shot of navigation bar on laptop](docs/screenshots/navbar.png)
+* [Screen shot of expanded form of the navigation bar on mobile](docs/screenshots/navbar-expanded-mobile.png)
+* [Screen shot of hovering over menu text in navigation bar on laptop](docs/screenshots/laptop-navbar-menu-hover.png)
+* [Screen shot of hovering over 'Contact' button in navigation bar on laptop](docs/screenshots/laptop-navbar-contact-hover.png)
+
 </details>
 
 [Back to top](#mow-and-more)
 
-#### home page
+#### Landing View
 
-text
-<details>
-<summary>view on small screen</summary>
-![alt text](url-image "image name")
+The user view point when landing on the site was designed to maximise visual impact.  Below the navigation bar at the very top, is a hero image with text.  The hero image section covers 70% of the screen height, leaving the user a glimpse of what is to come in the rest of the site and thereby enticing them to keep scrolling.  The hero image itself remains static when the screen is scrolled.
+
+<details><summary>Screen shots of landing view</summary>
+
+* [Page view on landing for laptop](docs/screenshots/page-top.png)
+
 </details>
-text
-<details>
-<summary>view on large screen</summary>
-![alt text](url-image "image name")
+
+Below the hero image is a section with a photo of 'Bob' the gardener and a welcoming quote from him.  This quote and the quotes in the testimonials section are formatted in a consistent manner.
+
+<details><summary> Quote formating </summary>
+
+* [Screen shot of quote from Bob on laptop](docs/screenshots/gardener-quote-home-desktop.png)
+* [Screen shot of quote from testimonials section](docs/screenshots/quote-formatting.png)
+
+</details>
+
+[Back to top](#mow-and-more)
+
+#### About Section
+
+The About section is divided into three parts: the first details in brief what 'Bob' can offer, the second is a carousel of images from past jobs designed to attract the user to want to find out more, and the third is a list of why this business is better than others.
+
+Additional features of the About section:
+* Carousel of images does not automatically slide as this can distract the user.  There are forward and backward buttons on the right and left of the image respectively and a slider indicator beneath.  Both of these allow the user to toggle between images.
+* Bullet point text enlarges and slightly changes colour when hovered over on laptop and larger screens.
+
+<details><summary>Screen shots of about section features</summary>
+
+* [Screen shot of about section on laptop](docs/screenshots/about-section-desktop.png)
+* [Screen shot of hovering over text in about section on laptop](docs/screenshots/about-hover-desktop.png)
+* [Screen shot of carousel](docs/screenshots/carousel-desktop.png)
+
+</details>
+
+[Back to top](#mow-and-more)
+
+#### Services Section
+
+The Services Section details each of the four main services which the gardener Bob can offer in more detail.  The information is presented in a card-type format with a photo and text for each one. At the bottom of each service type is an estimated price and calendar availability (some gardening services would not be appropriate all year round).
+
+<details><summary>Screen shots of services section features</summary>
+
+* [Screen shot of services section on laptop](docs/screenshots/services-section-desktop.png)
+
+</details>
+
+[Back to top](#mow-and-more)
+
+#### Testimonials Section
+
+The Testimonials Section consists of four quotes from past customers, each with a photo, star rating, text, name and location.  On laptops and larger screens, when a quote is hovered over, it expands and brings it to the user's attention.
+
+<details><summary>Screen shots of Testimonials section features</summary>
+
+* [Screen shot of Testimonials section on laptop](docs/screenshots/testimonials-desktop.png)
+* [Screen shot of hovering over text in Testimonials section on laptop](docs/screenshots/testimonials-hover-desktop.png)
+
+</details>
+
+[Back to top](#mow-and-more)
+
+#### Contact form 
+
+This section consists of a contact form so that the user can get in touch with the gardener Bob to get a quote for a job. It collects all relevant information: name, email, phone number, address, service interested in, prefered contact method, as well as a space to leave a message.
+
+Additional features of the Contact form:
+* The required fields of the form are: name, phone number, email address, address and prefered contact method.
+* Address locations are available from a drop down menu which encompasses only the areas which Bob can visit.
+* Information in the correct format must be entered into the required fields before the form can be submitted.
+* 'Focussing' on a field by clicking on it, brings it into highlight.
+* As well as 'Send' button there is also a 'Reset' button.
+
+<details><summary>Screen shots of contact form features</summary>
+
+* [Screen shot of Contact form on laptop](docs/screenshots/contact-form-desktop.png)
+* [Screen shot of focussing on the email field on the Contact form on laptop](docs/screenshots/contact-form-focus.png)
+
 </details>
 
 [Back to top](#mow-and-more)
 
 #### Footer
-text
-<details>
-<summary>Footer view</summary>
-![alt text](url-image "image name")
+
+The Footer is styled in a similar manner to the fixed navigation bar so that it stands out as a distinct part of each webpage.  Consistent with common practice, text size is reduced in the footer region. The footer remains the same on all three pages of the site.
+
+Additional features of the Footer:
+* Button which opens a pop-up modal if a user wishes to subscribe to the newsletter.
+* Social media icons are linked to the relavent sites (open in a new tab) and enlarge on hovering over them.
+* Accreditation badges are linked to the relavent sites (open in new tab).
+
+<details><summary>Screen shots of footer features</summary>
+
+* [Screen shot of the site footer on laptop](docs/screenshots/footer-desktop.png)
+
+</details>
+
+[Back to top](#mow-and-more)
+
+#### Newsletter Modal
+
+The newsletter modal opens via button in the footer of the website.  The design is consistent with that of the main site with the same image of 'Bob' the gardener used to evoke brand loyalty and trust.  There is a 'close' icon ('X') in the top right hand corner (standard location), as well as a form to collect data to subscribe to the newsletter.
+
+<details><summary>Screen shots of newsletter modal features</summary>
+
+* [Screen shot of open newsletter modal on mobile](docs/screenshots/mobile-open-modal.png)
+* [Screen shot of the open newsletter modal on laptop](docs/screenshots/newsletter-modal-open.png)
+
+</details>
+
+[Back to top](#mow-and-more)
+
+#### Contact form success page
+
+This page is styled in a manner consistent with the main webpage: the header and footer are identical and the region below the header, with the image and quote from 'Bob' the gardener has the same layout.
+
+Under the thank you message and explaination of the next steps, is a button to take the user back to the home page.
+
+<details><summary>Screen shots of contact form success page </summary>
+
+* [Whole page screen shot for success page on mobile](docs/screenshots/mobile-whole-page-success-contact.png)
+* [Whole page screen shot for success page on tablet](docs/screenshots/tablet-whole-page-success-contact.png)
+* [Whole page screen shot for success page on laptop](docs/screenshots/laptop-whole-page-success-contact.png)
+
+</details>
+
+[Back to top](#mow-and-more)
+
+#### Newsletter contact form success page
+
+This page is styled in a manner consistent with the main webpage: the header and footer are identical and the region below the header, with the image and quote from 'Bob' the gardener has the same layout.
+
+Under the thank you message and links to 'Bob's' social media profiles, is a button to take the user back to the home page.
+
+<details><summary> <b>Screen shots of newsletter form success page</b> </summary>
+
+* [Whole page screen shot for newsletter success page on mobile](docs/screenshots/mobile-success-newsletter.png)
+* [Whole page screen shot for newsletter success page on tablet](docs/screenshots/tablet-success-newsletter.png)
+* [Whole page screen shot for newsletter success page on laptop](docs/screenshots/laptop-success-newsletter.png)
+
 </details>
 
 [Back to top](#mow-and-more)
@@ -305,9 +439,35 @@ Bugs identified while writing the code.
 
 ### Responsiveness Tests
 
-Text: test responsiveness for mobile first design from the beginning using Chrome Dev Tools
+The website was designed in a 'mobile first' manner, as per modern protocol.  From the start Chrome Dev Tools were used to view the site on different device dimensions.  This was used to guide a responsive design and custom CSS (where needed) for different screen sizes and orientations.
 
-Final Test Results
+Final configurations of the website pages can be found here:
+
+<details><summary><b>Home Page</b></summary>
+
+* [Whole page screen shot for home page on mobile](docs/screenshots/mobile-whole-page-fireshot-capture.png)
+* [Whole page screen shot for home page on tablet](docs/screenshots/tablet-whole-page-fireshot-capture.png)
+* [Whole page screen shot for home page on laptop](docs/screenshots/laptop-whole-page-fireshot-capture.png)
+
+</details>
+
+<details><summary><b>Success Page for contact form</b></summary>
+
+* [Whole page screen shot for success page on mobile](docs/screenshots/mobile-whole-page-success-contact.png)
+* [Whole page screen shot for success page on tablet](docs/screenshots/tablet-whole-page-success-contact.png)
+* [Whole page screen shot for success page on laptop](docs/screenshots/laptop-whole-page-success-contact.png)
+
+</details>
+
+<details><summary><b>Success Page for newsletter form</b></summary>
+
+* [Whole page screen shot for newsletter success page on mobile](docs/screenshots/mobile-success-newsletter.png)
+* [Whole page screen shot for newsletter success page on tablet](docs/screenshots/tablet-success-newsletter.png)
+* [Whole page screen shot for newsletter success page on laptop](docs/screenshots/laptop-success-newsletter.png)
+
+</details>
+
+Testing was carried out on mobile (Umidigi A15), Amazon Fire and laptop.  An extended range of screen dimensions were investigated with the aid of the [Responsive Testing Tool](https://responsivetesttool.com/). All Results are presented below:  
 
 |**Size**|**Device Example**|**Navigation**| **Element Alignments**| **Content Placement**| **Functionality**| **Notes**|
 |---|---|---|---|---|---|---|
@@ -373,6 +533,33 @@ The CSS code written specifically for the site (style.css) was validated using [
 [Back to top](#mow-and-more)
 
 ### Feature Testing 
+
+|Section | Feature | Mobile | Tablet | Laptop| Notes|
+|---|---|---|---|---|---|
+|Navigation bar| Fixed to top of screen | YES | YES | YES | Hamburger menu expands and collapses correctly on mobile |
+|Navigation bar| Links work correctly | YES | YES | YES | Hover states of menu items and button work correctly |
+|Hero image | Fixed positioning when scrolled | YES |  YES | YES | |
+|About Section| Hover state of bullet point text interacts on laptop | N/A | N/A | YES | Screen does not jump when text expands |
+|About Section| Carousel of images works correctly | YES | YES | YES | |
+|Testimonials Section| Hover state for laptop results in testimonials expanding | N/A | N/A | YES | Screen does not jump when text expands |
+| Contact form | Name input required | YES | YES | YES | |
+| Contact form | Email input required | YES | YES | YES | Only accepts email format text |
+| Contact form | Phone input required | YES | YES | YES | Only accepts numbers |
+| Contact form | Address and postcode inputs required | YES | YES | YES | |
+| Contact form | Location selection required | YES | YES | YES | |
+| Contact form | Prefered contact method required | YES | YES | YES | |
+| Contact form | Correct submission takes user to new page | YES | YES | YES | |
+| Contact form | Reset button works |  |  |  | |
+| Footer | Newsletter subscribe button opens modal | YES | YES | YES | |
+| Footer | Social icons enlarge and change colour on hover | YES | YES | YES | |
+| Footer | Links open correctly | YES | YES | YES | |
+| Modal | Close button works correctly | YES | YES | YES | |
+| Modal | Name and Email fields are required | YES | YES | YES | Email only accepts text in the correct format |
+| Modal | Correct submission takes the user to a new page | YES | YES | YES | |
+| Modal | Reset button works correctly | YES | YES | YES | |
+| Success page for contact form | Back to home page button works correctly | YES | YES | YES | |
+| Success page for newsletter form | Back to home page button works correctly | YES | YES | YES | |
+| Global | Section headings are consistently formatted | YES | YES | YES | |
 
 [Back to top](#mow-and-more)
 
