@@ -642,7 +642,21 @@ The 'Largest Contentful Paint' was the slowest region of the site to load in all
 
 ### Browser testing
  
-Link to PDF for manually testing on different browsers and device sizes.
+The Mow and More website was tested on different browsers using the devices available. Results are presented below:
+
+|Browser | Device | Home page | Success page | Success newsletter page | Notes|
+|---|---|---|---|---|---|
+|Chrome | Umidigi A15 mobile | pass | pass | pass | features all work as expected |
+|Silk | Amazon Fire | pass | pass | pass | features all work as expected |
+|Chrome | laptop | pass | pass | pass | features all work as expected |
+|Edge | laptop | pass | pass | pass | features all work as expected |
+|Firefox | laptop | pass | pass | pass | features all work as expected |
+|Opera | laptop | pass | pass | pass | features all work as expected |
+|Explorer | laptop | fail | fail | fail | No images, background colours, icons or text formating work correctly.  Alternative text appears where images should be.|
+
+I was unable to test the Safari browser as I don't have access to an Apple device.
+
+For the browsers tested, the results were only unacceptable for Windows Internet Explorer.  This is now an archived browser and not in common use.
 
 [Back to top](#mow-and-more)
 
