@@ -2,7 +2,7 @@
 
 [Mow & More](https://lbwright22ci.github.io/mow-and-more/)
 
-A static website to promote the work of a small gardening/outside maintenance service with the overall aim of increasing bookings and gaining more clients.  As one-man business based in a middle class residential area with a high proportion of older adults, the key strengths that the website needs to convey are that it is a local, friendly, trustworthy service.
+A static website to promote the work of a small gardening/outside maintenance service with the overall aim of increasing bookings and gaining more clients.  As one man business based in a middle class residential area with a high proportion of older adults, the key strengths that the website needs to convey are that it is a local, friendly, trustworthy service.
 
 <br/>
 
@@ -62,7 +62,7 @@ A static website to promote the work of a small gardening/outside maintenance se
 
 ## Website Goals and Objectives
 
-A static website to promote the work of a small gardening/outside maintenance service with the overall aim of increasing bookings and gaining more clients.  As one-man business based in a middle class residential area with a high proportion of older adults, the key strengths that the website needs to convey are a local, friendly and trustworthy. Potential customers need to feel comfortable and confident letting someone into their property.
+A static website to promote the work of a small gardening/outside maintenance service with the overall aim of increasing bookings and gaining more clients.  As one man business based in a middle class residential area with a high proportion of older adults, the key strengths that the website needs to convey are a local, friendly and trustworthy. Potential customers need to feel comfortable and confident letting someone into their property.
 
 
 ## Target Audience
@@ -79,12 +79,12 @@ The vast majority of residents are homeowners with very few rental properties.  
 
 ## User Goals
 
-* A potential customer is looking on the internet to find someone reliable and skilled who has the correct tools and knowlegde to take care of the garden or outside property maintenance tasks which they are either no longer able to do or don't have the time/desire to do.
+* A potential customer is looking on the internet to find someone reliable and skilled who has the correct tools and knowledge to take care of the garden or outside property maintenance tasks which they are either no longer able to do or don't have the time/desire to do.
 * Things the website user wants to know about the business:
     * The range of services offered: can they get their grass cut? What about hedges or pressure washing the patio?
     * Will the job be done well?  
     * Can I trust this person in my home?  What do other people say about the quality of work?
-    * How long to jobs take and how much does it cost?
+    * How long do jobs take and how much does it cost?
     * Do you cover my area and what days of the week/hours of the day do you work?
     * How to get in touch and book a visit. 
 
@@ -92,7 +92,7 @@ The vast majority of residents are homeowners with very few rental properties.  
 ## User Stories
 
 * **_Easy navigation and responsive design to the website_**
-    * I'm looking for someone to do outside garden and propery maintenance.  I need to be able to find the information I am looking for (such as services offered, locations, price ranges, testimonials, how to get in touch) quickly and easily on all type of device (mobile, tablet and laptop).  If I can't find what I need or get frustrated by the site I'll leave and look elsewhere.
+    * I'm looking for someone to do outside garden and property maintenance.  I need to be able to find the information I am looking for (such as services offered, locations, price ranges, testimonials, how to get in touch) quickly and easily on all types of device (mobile, tablet and laptop).  If I can't find what I need or get frustrated by the site I'll leave and look elsewhere.
 * **_Key benefits of using the service_**
     * As a potential client I want to know why I should book 'Mow & More' rather than another service.
 * **_Business information_**
@@ -125,7 +125,7 @@ The vast majority of residents are homeowners with very few rental properties.  
 
 ## Wireframes
 
-Wireframes for the site were created using [Balsamiq](https://balsamiq.com/).  In accordance with industry standards and best practices, the site was designed with a 'mobile-first' appoach.  The design of a single, scrollable page aimed keep the user interested and gradually provide them with the information they need in a prioritised manner, minimises the number of 'click' steps necessary between landing on the site and submitting an inquiry form (the desired outcome).  Navigation in a fixed header at the top of the page will allow those who decide they want to book immediately to jump to this point on the page.
+Wireframes for the site were created using [Balsamiq](https://balsamiq.com/).  In accordance with industry standards and best practices, the site was designed with a 'mobile-first' approach.  The design of a single, scrollable page aims to keep the user interested and gradually provide them with the information they need in a prioritised manner, minimising the number of 'click' steps necessary between landing on the site and submitting an inquiry form (the desired outcome).  Navigation in a fixed header at the top of the page will allow those who decide they want to book immediately to jump to this point on the page.
 
 Wireframes for tablet and laptop screens utilise the extra screen space available in comparison to mobile devices.
 
@@ -163,11 +163,11 @@ Further typography styling rules for site consistency:
 
 ### Colour Scheme
 
-The colour scheme was chosen with green and earthy tones in mind.  Initial colours were generated using [Coolors](https://coolors.co/) and the hero image (stock image sourced from FreePiks of some pots and a watering can in front of a fence).  This colour palette was further refinded using the [WebAim Contrast Tool](https://webaim.org/resources/contrastchecker/) to maximise readability of text. 
+The colour scheme was chosen with green and earthy tones in mind.  Initial colours were generated using [Coolors](https://coolors.co/) and the hero image (stock image sourced from FreePiks of some pots and a watering can in front of a fence).  This colour palette was further refined using the [WebAim Contrast Tool](https://webaim.org/resources/contrastchecker/) to maximise readability of text. 
 
 ![Image generated by Coolors of the colour palette to be used on the website](docs/design/garden-final.png "Hex codes for website colour palette")
 
-This colour palette has been further verified for constrast and accessibility using the tool [Contrast-grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=264D32%0D%0A585423%0D%0AE1E0BC%0D%0AF0FFFF%0D%0ACEAB8D%0D%0A302118%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18).
+This colour palette has been further verified for contrast and accessibility using the tool [Contrast-grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=264D32%0D%0A585423%0D%0AE1E0BC%0D%0AF0FFFF%0D%0ACEAB8D%0D%0A302118%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18).
 
 ![Image generated by Contrast-Grid](docs/design/constrast-checker-colours.png "contrast grid validation for colour palette")
 
@@ -186,7 +186,7 @@ A table of the colour variants used:
 
 There are two different styled buttons used on the site: the primary style which is for 'Call to action' links (get in touch, submit the inquiry form, subscribe to the newsletter) and a secondary button for form reset.  All colour combinations pass the [Contrast Grid accessibility AAA test score](#colour-scheme).
 
-|**Button Type**|**Text colour**|**Background colour**|**Border colour**|**Colour Constrast Score**|
+|**Button Type**|**Text colour**|**Background colour**|**Border colour**|**Colour Contrast Score**|
 |---|---|---|---|---|
 |Call to action| primary colour| primary highlight | primary colour| 7.2 AAA|
 |Call to action: hover| primary background colour| primary colour| primary background colour|15 AAA|
@@ -250,7 +250,7 @@ In addition to the main page, there is a modal which opens (from a button in the
 
 #### Navigation Bar
 
-The navigation bar is fixed to the top of the screen and has the same appearance on all three pages of the site.  On the left handside of the bar is the brand logo and on the right, the navigation menu with options: 'Home', 'About', 'Services', 'Testimonials' and 'Contact' (Contact is in a button form).
+The navigation bar is fixed to the top of the screen and has the same appearance on all three pages of the site.  On the left-hand-side of the bar is the brand logo and on the right, the navigation menu with options: 'Home', 'About', 'Services', 'Testimonials' and 'Contact' (Contact is in a button form).
 
 Further features of the navigation bar include:
 * For optimising the best use of screen space, the navigation menu on the right of the navigation bar is collapsed into the web standard 'hamburger' icon for mobile devices.  When clicked on, the 'hamburger' expands to reveal the menu options. This re-collapses once an option has been selected.
@@ -301,7 +301,7 @@ Below the hero image is a section with a photo of 'Bob' the gardener and a welco
 The About section is divided into three parts: the first details in brief what 'Bob' can offer, the second is a carousel of images from past jobs designed to attract the user to want to find out more, and the third is a list of why this business is better than others.
 
 Additional features of the About section:
-* Carousel of images does not automatically slide as this can distract the user.  There are forward and backward buttons on the right and left of the image respectively and a slider indicator beneath.  Both of these allow the user to toggle between images.
+* The carousel of images does not automatically slide as this can distract the user.  There are forward and backward buttons on the right and left of the image respectively and a slider indicator beneath.  Both of these allow the user to toggle between images.
 * Bullet point text enlarges and slightly changes colour when hovered over on laptop and larger screens.
 
 <details><summary><b>Screen shots of about section features</b></summary>
@@ -347,10 +347,10 @@ The Testimonials Section consists of four quotes from past customers, each with 
 
 #### Contact form 
 
-This section consists of a contact form so that the user can get in touch with the gardener Bob to get a quote for a job. It collects all relevant information: name, email, phone number, address, service interested in, prefered contact method, as well as a space to leave a message.
+This section consists of a contact form so that the user can get in touch with the gardener Bob to get a quote for a job. It collects all relevant information: name, email, phone number, address, service interested in, preferred contact method, as well as a space to leave a message.
 
 Additional features of the Contact form:
-* The required fields of the form are: name, phone number, email address, address and prefered contact method.
+* The required fields of the form are: name, phone number, email address, address and preferred contact method.
 * Address locations are available from a drop down menu which encompasses only the areas which Bob can visit.
 * Information in the correct format must be entered into the required fields before the form can be submitted.
 * 'Focussing' on a field by clicking on it, brings it into highlight.
@@ -373,8 +373,8 @@ The Footer is styled in a similar manner to the fixed navigation bar so that it 
 
 Additional features of the Footer:
 * Button which opens a pop-up modal if a user wishes to subscribe to the newsletter.
-* Social media icons are linked to the relavent sites (open in a new tab) and enlarge on hovering over them.
-* Accreditation badges are linked to the relavent sites (open in new tab).
+* Social media icons are linked to the relevant sites (open in a new tab) and enlarge on hovering over them.
+* Accreditation badges are linked to the relevant sites (open in new tab).
 
 <details><summary><b>Screen shots of footer features</b></summary>
 
@@ -405,7 +405,7 @@ The newsletter modal opens via button in the footer of the website.  The design 
 
 This page is styled in a manner consistent with the main webpage: the header and footer are identical and the region below the header, with the image and quote from 'Bob' the gardener has the same layout.
 
-Under the thank you message and explaination of the next steps, is a button to take the user back to the home page.
+Under the thank you message and explanation of the next steps, is a button to take the user back to the home page.
 
 <details><summary><b>Screen shots of contact form success page</b></summary>
 
@@ -503,7 +503,7 @@ Bugs identified while writing the code.
 |Phone number field in contact form accepting text input| fixed| When using `input type="tel"` it was possible to submit the form with text (rather than numbers) in the Phone field of the contact form.| Change to `input type="number"`.  Note `type="tel"` is not recognised by all browsers.|
 |UX warning from Chrome Dev tools: form input fields do not have autocomplete enabled|fixed |With some browsers on some devices, without `autocomplete` attribute being defined, the form might be incorrectly completed| Add the `autocomplete` atribute too name, phone number, email and address fields of the form |
 |Lighthouse warning _Found an &lt;h1&gt; tag within an &lt;article&gt;, &lt;aside&gt;, &lt;nav&gt;, or &lt;section&gt; which does not have a specified font-size._ |Fixed|Adding styling css code [suggested](https://developer.mozilla.org/en-US/blog/h1-element-styles/) did not solve the problem| Changing the hero image and `h1` title from a `section` to the `header` resolved the problem|
-|Check boxes in the contact form are not compulsary| not fixed| Desired outcome is that the user needs to select at least one of the service checkboxes that they are interested in to be able to submit the form. | It is not possible to resolve this without the use of extra JS code.  With HTML alone, the only options are to make all checkboxes mandatory (which isn't appropriate as not every user will want to ask about every service) or to use the radio function where a user can only select one option (also not appropriate as users may wish to inquire about both lawn mowing and another job).|
+|Check boxes in the contact form are not compulsory| not fixed| The desired outcome is that the user needs to select at least one of the service checkboxes that they are interested in to be able to submit the form. | It is not possible to resolve this without the use of extra JS code.  With HTML alone, the only options are to make all checkboxes mandatory (which isn't appropriate as not every user will want to ask about every service) or to use the radio function where a user can only select one option (also not appropriate as users may wish to inquire about both lawn mowing and another job).|
 |Hero image text box too large on short screens such as landscape mobiles and old phones (iPhone 4 and 5)|fixed| Hero title text lies below the navigation bar and extends above the top of the screen | Add responsive styling CSS based on screens with `max-width` less than 620px.|
 
 [Back to top](#mow-and-more)
@@ -576,7 +576,7 @@ The HTML code from each of the three webpages- index.html, success.html and succ
 The CSS code written specifically for the site (style.css) was validated using [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). No errors were found. The warnings related to either:
 * imported style sheets (from Google Fonts)
 * CSS variables which are not validated by the W3C CSS Validator
-* Extentions added by Autoprefixer to ensure the code functioned in the desired way across different browsers.
+* Extensions added by Autoprefixer to ensure the code functioned in the desired way across different browsers.
 
 ![CSS validation check results](docs/testing/css-validation.png "CSS validation check for style.css")
 
@@ -596,14 +596,14 @@ The CSS code written specifically for the site (style.css) was validated using [
 | | Pass |Clearly stated business hours (Mon-Fri 8 am - 5 pm)| [Screen shot of business information in the footer](docs/screenshots/business-info.png) |
 |Engaging descriptions of the services offered|Pass| Key benefits of employing this gardening business in simple, easy to read, eye catching text close to the top of the webpage|[Screen shot of 'Why choose Mow & More'](docs/screenshots/benefits-about-desktop.png)|
 || Pass |More in depth information about specific services along with an image in a dedicated 'Service' section.|[Screen shot of Services section on desktop](docs/screenshots/services-section-desktop.png)|
-|| Pass |Advice on periods of the year when a service is available: this is important for gardening when some jobs may not be apropriate in winter| [Screen shot of Services section on desktop](docs/screenshots/services-section-desktop.png) |
+|| Pass |Advice on periods of the year when a service is available: this is important for gardening when some jobs may not be appropriate in winter| [Screen shot of Services section on desktop](docs/screenshots/services-section-desktop.png) |
 |High quality images of the services offered| Pass |High quality images used across the site.|[Screen shot of carousel of images from past jobs](docs/screenshots/carousel-desktop.png)|
 | | Pass |Links to social media profiles which will display photos of current or recent jobs.| [Screen shot of social media links in the site footer](docs/screenshots/social-links.png) |
 |Estimated pricing| Pass |Pricing per hour for each type of the four common services displayed visibly.  The exact cost will depend on the size of the job, but this will give customers a guideline.|[Screen shot of Services section on desktop](docs/screenshots/services-section-desktop.png)|
 |Testimonials from past customers| Pass |A range of short quotes from existing or past customers which talk about their experience of the different services they opted for.|[Screen shot of Testimonials section](docs/screenshots/testimonials-desktop.png)|
 || Pass |Testimonials should be styled in a manner consistent across the internet to inspire confidence: image, star rating, quote, name and some kind of address of the customer| [Screen shot of Testimonials section](docs/screenshots/testimonials-desktop.png)|
-|Inquiry form to get a quote for my garden| Pass |Inquiry form easily found accross the site.|[Button to contact form found in the navigation bar fixed to the top of the page](docs/screenshots/navbar.png)|
-|| Pass |Inquiry form is intutive and accessible (including accessible to those with screen readers). |[Screen shot of Contact form](docs/screenshots/contact-form-desktop.png)|
+|Inquiry form to get a quote for my garden| Pass |Inquiry form easily found across the site.|[Button to contact form found in the navigation bar fixed to the top of the page](docs/screenshots/navbar.png)|
+|| Pass |Enquiry form is intuitive and accessible (including accessible to those with screen readers). |[Screen shot of Contact form](docs/screenshots/contact-form-desktop.png)|
 || Pass |Once submitted the form takes the user through to a success page.|[Screen shot of contact form success page on laptop](docs/screenshots/laptop-whole-page-success-contact.png)|
 || Pass |Collect key information (required): name, email, phone number, address of property, service interested in (lawn care, hedge maintenance, weeding, patio & drive cleaning)| [Screen shot of Contact form](docs/screenshots/contact-form-desktop.png)|
 || Pass |Additional field for the customer to leave any extra information (optional).| [Screen shot of Contact form](docs/screenshots/contact-form-desktop.png)|
@@ -656,7 +656,7 @@ To ensure that the website is accessible to screen readers, those with impaired 
 
 Three issues were highlighted:
 * The two contrast errors relate to the visual contrast between the carousel previous/next image icon arrows on the left/right of the photos, respectively.  The Bootstrap default line arrows were replaced with a solid circle icon from FontAwesome and both the opacity and font size increased to make these more apparent.  The carousel image slider bar was also moved below the images and increased in size.  There are also the appropriate Aria labels for controlling carousel movement via a screen reader.
-* A warning for a deduntant (repeated) HTML link in the navigation bar was highlighted.  This refers to both the brand logo on the left and the menu item 'Home' taking the user to the same place.  It is standard practice to present both options in a navigation bar.
+* A warning for a reduntant (repeated) HTML link in the navigation bar was highlighted.  This refers to both the brand logo on the left and the menu item 'Home' taking the user to the same place.  It is standard practice to present both options in a navigation bar.
 
 [Back to top](#mow-and-more)
 
@@ -667,7 +667,7 @@ The Mow & More website was tested in two browsers- Chrome and Edge- using the De
 * Performance- how quickly a site will load.
 * Accessibility- whether a site is accessible to all users, including those with diverse needs. 
 * Best Practices- whether a site is designed to a standard consistent with modern user experience (navigation, structure etc).
-* SEO- whether a the website code is optimized to give the best search engine rankings.
+* SEO- whether the website code is optimized to give the best search engine rankings.
 
 The Lighthouse tests for desktop, analysed in Chrome were:
 ![Desktop Lighthouse results for Chrome](docs/testing/lighthouse-total-chrome-desktop.png).
@@ -683,7 +683,7 @@ Similar results were obtained for:
 
 Lighthouse Performance test results were 75% and 74% for mobile devices when tested in Chrome and Edge respectively.  The same issues as those identified for desktop browsing were responsible for a non-optimal performance on mobile.
 
-* [Mobile Lighthout testing for Chrome](docs/testing/lighthouse-total-chrome-mobile.png)
+* [Mobile Lighthouse testing for Chrome](docs/testing/lighthouse-total-chrome-mobile.png)
 * [Mobile Lighthouse testing for Microsoft Edge](docs/testing/lighthouse-total-edge-mobile.png)
 
 The 'Largest Contentful Paint' was the slowest region of the site to load in all cases and is the hero image section at the top of the home page.  Reducing the size of this image would reduce its visual impact and so the performance trade-off is necessary.
@@ -702,7 +702,7 @@ The Mow and More website was tested on different browsers using the devices avai
 |Edge | laptop | pass | pass | pass | features all work as expected |
 |Firefox | laptop | pass | pass | pass | features all work as expected |
 |Opera | laptop | pass | pass | pass | features all work as expected |
-|Explorer | laptop | fail | fail | fail | No images, background colours, icons or text formating work correctly.  Alternative text appears where images should be.|
+|Explorer | laptop | fail | fail | fail | No images, background colours, icons or text formatting work correctly.  Alternative text appears where images should be.|
 
 I was unable to test the Safari browser as I don't have access to an Apple device.
 
@@ -728,10 +728,10 @@ Any changes made to the code are pushed to Github from VSCODE (or another IDE) a
 
 ### To fork the project
 
-If desired the website code can be changed without effecting the current live site by 'forking' the project. This creates a replica with the same history as the original.  This might be helpful for de-bugging when it is necessary to check any changes on a live site (rather than in a local environment) but you don't want to the changes to be visible on the publically shared URL.
+If desired the website code can be changed without affecting the current live site by 'forking' the project. This creates a replica with the same history as the original.  This might be helpful for de-bugging when it is necessary to check any changes on a live site (rather than in a local environment) but you don't want the changes to be visible on the publically shared URL.
 
 To fork the project:
-* Locate the Mow and More respository on Github.
+* Locate the Mow and More repository on Github.
 * Click on 'Fork' at the top right of the page.
 * Follow the instructions to name or add a description to the new fork.
 * Select 'Create fork'
@@ -739,7 +739,7 @@ To fork the project:
 ### To clone the project
 
 To clone the Mow and More repository:
-* Locate the Mow and More respository on Github.
+* Locate the Mow and More repository on Github.
 * Click on the green 'Code' button.
 * Copy the URL to clipboard.
 * Open your desired IDE in the correct folder.
