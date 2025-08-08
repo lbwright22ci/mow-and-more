@@ -209,7 +209,7 @@ Further features of the navigation bar include:
 * Hovering over the 'Contact' button on laptop and larger screens results in colour inversion and enlargement.
 * For visual impact, there is a slight shadow under the navigation bar.
 
-<details><summary>Screen shots of navigation bar</summary>
+<details><summary><b>Screen shots of navigation bar</b></summary>
 
 * [Screen shot of navigation bar on laptop](docs/screenshots/navbar.png)
 * [Screen shot of expanded form of the navigation bar on mobile](docs/screenshots/navbar-expanded-mobile.png)
@@ -218,26 +218,31 @@ Further features of the navigation bar include:
 
 </details>
 
+<br/>
+
 [Back to top](#mow-and-more)
 
 #### Landing View
 
 The user view point when landing on the site was designed to maximise visual impact.  Below the navigation bar at the very top, is a hero image with text.  The hero image section covers 70% of the screen height, leaving the user a glimpse of what is to come in the rest of the site and thereby enticing them to keep scrolling.  The hero image itself remains static when the screen is scrolled.
 
-<details><summary>Screen shots of landing view</summary>
+<details><summary><b>Screen shots of landing view</b></summary>
 
 * [Page view on landing for laptop](docs/screenshots/page-top.png)
 
 </details>
 
+<br/>
 Below the hero image is a section with a photo of 'Bob' the gardener and a welcoming quote from him.  This quote and the quotes in the testimonials section are formatted in a consistent manner.
 
-<details><summary> Quote formating </summary>
+<details><summary><b> Quote formating</b> </summary>
 
 * [Screen shot of quote from Bob on laptop](docs/screenshots/gardener-quote-home-desktop.png)
 * [Screen shot of quote from testimonials section](docs/screenshots/quote-formatting.png)
 
 </details>
+
+<br/>
 
 [Back to top](#mow-and-more)
 
@@ -249,7 +254,7 @@ Additional features of the About section:
 * Carousel of images does not automatically slide as this can distract the user.  There are forward and backward buttons on the right and left of the image respectively and a slider indicator beneath.  Both of these allow the user to toggle between images.
 * Bullet point text enlarges and slightly changes colour when hovered over on laptop and larger screens.
 
-<details><summary>Screen shots of about section features</summary>
+<details><summary><b>Screen shots of about section features</b></summary>
 
 * [Screen shot of about section on laptop](docs/screenshots/about-section-desktop.png)
 * [Screen shot of hovering over text in about section on laptop](docs/screenshots/about-hover-desktop.png)
@@ -257,17 +262,21 @@ Additional features of the About section:
 
 </details>
 
+<br/>
+
 [Back to top](#mow-and-more)
 
 #### Services Section
 
 The Services Section details each of the four main services which the gardener Bob can offer in more detail.  The information is presented in a card-type format with a photo and text for each one. At the bottom of each service type is an estimated price and calendar availability (some gardening services would not be appropriate all year round).
 
-<details><summary>Screen shots of services section features</summary>
+<details><summary><b>Screen shots of services section features</b></summary>
 
 * [Screen shot of services section on laptop](docs/screenshots/services-section-desktop.png)
 
 </details>
+
+<br/>
 
 [Back to top](#mow-and-more)
 
@@ -275,12 +284,14 @@ The Services Section details each of the four main services which the gardener B
 
 The Testimonials Section consists of four quotes from past customers, each with a photo, star rating, text, name and location.  On laptops and larger screens, when a quote is hovered over, it expands and brings it to the user's attention.
 
-<details><summary>Screen shots of Testimonials section features</summary>
+<details><summary><b>Screen shots of Testimonials section features</b></summary>
 
 * [Screen shot of Testimonials section on laptop](docs/screenshots/testimonials-desktop.png)
 * [Screen shot of hovering over text in Testimonials section on laptop](docs/screenshots/testimonials-hover-desktop.png)
 
 </details>
+
+<br/>
 
 [Back to top](#mow-and-more)
 
@@ -295,12 +306,14 @@ Additional features of the Contact form:
 * 'Focussing' on a field by clicking on it, brings it into highlight.
 * As well as 'Send' button there is also a 'Reset' button.
 
-<details><summary>Screen shots of contact form features</summary>
+<details><summary><b>Screen shots of contact form features</b></summary>
 
 * [Screen shot of Contact form on laptop](docs/screenshots/contact-form-desktop.png)
 * [Screen shot of focussing on the email field on the Contact form on laptop](docs/screenshots/contact-form-focus.png)
 
 </details>
+
+<br/>
 
 [Back to top](#mow-and-more)
 
@@ -313,11 +326,13 @@ Additional features of the Footer:
 * Social media icons are linked to the relavent sites (open in a new tab) and enlarge on hovering over them.
 * Accreditation badges are linked to the relavent sites (open in new tab).
 
-<details><summary>Screen shots of footer features</summary>
+<details><summary><b>Screen shots of footer features</b></summary>
 
 * [Screen shot of the site footer on laptop](docs/screenshots/footer-desktop.png)
 
 </details>
+
+<br/>
 
 [Back to top](#mow-and-more)
 
@@ -325,12 +340,14 @@ Additional features of the Footer:
 
 The newsletter modal opens via button in the footer of the website.  The design is consistent with that of the main site with the same image of 'Bob' the gardener used to evoke brand loyalty and trust.  There is a 'close' icon ('X') in the top right hand corner (standard location), as well as a form to collect data to subscribe to the newsletter.
 
-<details><summary>Screen shots of newsletter modal features</summary>
+<details><summary><b>Screen shots of newsletter modal features</b></summary>
 
 * [Screen shot of open newsletter modal on mobile](docs/screenshots/mobile-open-modal.png)
 * [Screen shot of the open newsletter modal on laptop](docs/screenshots/newsletter-modal-open.png)
 
 </details>
+
+<br/>
 
 [Back to top](#mow-and-more)
 
@@ -340,13 +357,15 @@ This page is styled in a manner consistent with the main webpage: the header and
 
 Under the thank you message and explaination of the next steps, is a button to take the user back to the home page.
 
-<details><summary>Screen shots of contact form success page </summary>
+<details><summary><b>Screen shots of contact form success page</b></summary>
 
 * [Whole page screen shot for success page on mobile](docs/screenshots/mobile-whole-page-success-contact.png)
 * [Whole page screen shot for success page on tablet](docs/screenshots/tablet-whole-page-success-contact.png)
 * [Whole page screen shot for success page on laptop](docs/screenshots/laptop-whole-page-success-contact.png)
 
 </details>
+
+<br/>
 
 [Back to top](#mow-and-more)
 
@@ -363,6 +382,8 @@ Under the thank you message and links to 'Bob's' social media profiles, is a but
 * [Whole page screen shot for newsletter success page on laptop](docs/screenshots/laptop-success-newsletter.png)
 
 </details>
+
+<br/>
 
 [Back to top](#mow-and-more)
 
@@ -467,11 +488,25 @@ Final configurations of the website pages can be found here:
 
 </details>
 
-Testing was carried out on mobile (Umidigi A15), Amazon Fire and laptop.  An extended range of screen dimensions were investigated with the aid of the [Responsive Testing Tool](https://responsivetesttool.com/). All Results are presented below:  
+<br/>
+
+Testing was carried out in person on mobile (Umidigi A15), Amazon Fire and laptop.  The website function and appearance was as expected in all three cases.
+
+An extended range of screen dimensions were investigated with the aid of the [Responsive Testing Tool](https://responsivetesttool.com/). The results are presented below:  
 
 |**Size**|**Device Example**|**Navigation**| **Element Alignments**| **Content Placement**| **Functionality**| **Notes**|
 |---|---|---|---|---|---|---|
-|sm|Samsung Galaxy98|Good|Good|Good|Good|any notes|
+|sm (320 x 480) | iPhone 3/4 |Good|Good|Good|Good| Adjustment of Hero image text was necessary to ensure it displayed correctly. See [responsiveness section](#responsiveness). Works as expected for both landscape and portrait|
+|sm (346 x 346)|Blackberry Q10|Good|Good|Good|Good| |
+|sm (375 x 667)|iPhone 8|Good|Good|Good|Good| Works as expected for both landscape and portrait|
+|sm (411 x 731)|Nexus 6P|Good|Good|Good|Good| Works as expected for both landscape and portrait|
+|sm (600 x 960)|LG G Pad 8.3|Good|Good|Good|Good| Works in mobile mode for portrait and tablet mode for landscape|
+|md (768 x 1024)|iPad 1/2|Good|Good|Good|Good| Works in tablet mode for portrait and small desktop mode for landscape|
+|md (800 x 1280)|Samsung Galaxy Tablet|Good|Good|Good|Good| Works in tablet mode for portrait and laptop mode for landscape|
+|lg (1024 x 768)|Desktop/laptop|Good|Good|Good|Good| Works as expected. Landscape orientation only as this is a laptop.|
+|xl (1280 x 800)| Desktop/laptop|Good|Good|Good|Good| Works as expected. Landscape orientation only as this is a laptop.|
+|xxl (1680 x 1050)| Desktop/laptop|Good|Good|Good|Good| Works as expected. Landscape orientation only as this is a laptop.|
+
 
 [Back to top](#mow-and-more)
 
@@ -549,7 +584,7 @@ The CSS code written specifically for the site (style.css) was validated using [
 | Contact form | Location selection required | YES | YES | YES | |
 | Contact form | Prefered contact method required | YES | YES | YES | |
 | Contact form | Correct submission takes user to new page | YES | YES | YES | |
-| Contact form | Reset button works |  |  |  | |
+| Contact form | Reset button works | YES | YES | YES | |
 | Footer | Newsletter subscribe button opens modal | YES | YES | YES | |
 | Footer | Social icons enlarge and change colour on hover | YES | YES | YES | |
 | Footer | Links open correctly | YES | YES | YES | |
