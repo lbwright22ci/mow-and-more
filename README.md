@@ -2,7 +2,7 @@
 
 [Mow & More](https://lbwright22ci.github.io/mow-and-more/)
 
-A static website to promote the work of a small gardening/outside maintenance service with the overall aim of increasing bookings and gaining more clients.  As one man business based in a middle class residential area with a high proportion of older adults, the key strengths that the website needs to convey are that it is a local, friendly, trustworthy service.
+A static website to promote the work of a small gardening/outside maintenance service with the overall aim of increasing bookings and gaining more clients.  As one man business based in a middle class residential area with a high proportion of older adults, the key strengths that the website needs to convey are a local, friendly and trustworthy. Potential customers need to feel comfortable and confident letting someone into their property.
 
 <br/>
 
@@ -10,7 +10,6 @@ A static website to promote the work of a small gardening/outside maintenance se
 
 ### Contents
 
-  * [Website Goals and Objectives](#website-goals-and-objectives)
   * [Target Audience](#target-audience)
   * [User Goals](#user-goals)
   * [User Stories](#user-stories)
@@ -20,9 +19,6 @@ A static website to promote the work of a small gardening/outside maintenance se
     + [Colour Scheme](#colour-scheme)
     + [Buttons](#buttons)
     + [Images](#images)
-      - [Favicon](#favicon)
-      - [Images sourced from stock files](#images-sourced-from-stock-files)
-      - [Images for accreditation section](#images-for-accreditation-section)
     + [Responsiveness](#responsiveness)
   * [Features](#features)
     + [Existing Features](#existing-features)
@@ -57,12 +53,10 @@ A static website to promote the work of a small gardening/outside maintenance se
     + [To fork the project](#to-fork-the-project)
     + [To clone the project](#to-clone-the-project)
   * [Credits](#credits)
-
-
-
-## Website Goals and Objectives
-
-A static website to promote the work of a small gardening/outside maintenance service with the overall aim of increasing bookings and gaining more clients.  As one man business based in a middle class residential area with a high proportion of older adults, the key strengths that the website needs to convey are a local, friendly and trustworthy. Potential customers need to feel comfortable and confident letting someone into their property.
+    + [Image Credits](#image-credits)
+      - [Favicon](#favicon)
+      - [Images sourced from stock files](#images-sourced-from-stock-files)
+      - [Images for accreditation section](#images-for-accreditation-section)
 
 
 ## Target Audience
@@ -131,9 +125,9 @@ Wireframes for tablet and laptop screens utilise the extra screen space availabl
 
 Initial wireframes changed when the website was being built to improve the user experience.  Specifically, clear section breaks were added.
 
-[Evolutionary wireframes for main page (all sections) on mobile, tablet and laptop](docs/design/main-page-wireframe.pdf)
+[Wireframes for main page (all sections) on mobile, tablet and laptop](docs/design/main-page-wireframe.pdf)
 
-[Evolutionary wireframes for form success page (all sections) on mobile, tablet and laptop](docs/design/success-page-wireframe.pdf)
+[Wireframes for form success page (all sections) on mobile, tablet and laptop](docs/design/success-page-wireframe.pdf)
 
 [Back to Top](#mow-and-more)
 
@@ -141,8 +135,8 @@ Initial wireframes changed when the website was being built to improve the user 
 
 ### Typography
 
-* A brand font of Merriweather was chosen specifically with the target audience of the website in mind: professional and traditional.  With a high proportion of potential users being older adults the 'classic', reliable 'feel' for the brand is important.  Being a Serif font though, Merriweather is less widely used for online text.  Hence, in accordance with best practices, Merriweather was limited to the brand name and section headings only.
-* The [Font Pair](https://www.fontpair.co/all) tool was used to guide a font to be used alongside Merriweather for heading and body text: Poppins.
+* A brand font of [Merriweather](https://fonts.google.com/specimen/Merriweather) was chosen specifically with the target audience of the website in mind: professional and traditional.  With a high proportion of potential users being older adults the 'classic', reliable 'feel' for the brand is important.  Being a Serif font though, Merriweather is less widely used for online text.  Hence, in accordance with best practices, Merriweather was limited to the brand name and section headings only.
+* The [Font Pair](https://www.fontpair.co/all) tool was used to guide a font to be used alongside Merriweather for heading and body text: [Poppins](https://fonts.google.com/specimen/Poppins).
 * Poppins is a commonly used font with high readability, which is important for site accessibility.
 
 Further typography styling rules for site consistency:
@@ -199,24 +193,6 @@ A combination of stock images and those taken myself are used on the website.  T
 The brand icon of the gardener with a spade was sourced for the site specifically.  This is used in the favicon, navigation bar and at the top of each section in the section heading.
 
 All photos were converted to .webp files and optimized to less than 200kB for web-viewing with the aim to optimise site performance.
-
-#### Favicon
-* Gardener and spade outline from [Icon Scout](https://iconscout.com/icons/gardener) designed by [Rank Sol](https://iconscout.com/contributors/promotion-king).  The outline changed to website dark green (#264D32) for consistent branding.
-* Image converted and Favicon code generated by [Favicon.io](https://favicon.io/).
-
-#### Images sourced from stock files
-* Hero image of plant pots with watering can from [FreePik](https://www.freepik.com/)(author unknown)
-* Lawn mowing image by [Rudy and Peter Skitterians](https://pixabay.com/users/clickerhappy-324082/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=384589") from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=384589)
-* Weeding image by [Couleur](https://pixabay.com/users/couleur-1195798/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3296781) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=384589)
-* Hedge and bush cutting image by [Alexa](https://pixabay.com/users/alexas_fotos-686414/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=972972) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=384589)
-* Pressure washing image by [Tomasz](https://stock.adobe.com/uk/contributor/200738455/tomasz-zajda) from [Stock Adobe](https://stock.adobe.com)
-* Portrait shot of a gardener holding a plant in a pot from [FreePix](https://www.freepik.com/) (author unknown).
-
-#### Images for accreditation section
-The badges and awards/accreditations in the footer of the website are fictional.  Images were sourced for free from:
-* [Check-a-trade](https://pureecosolutions.co.uk/checkatrade-logo/) logo 
-* [Trust a Trader](https://www.facebook.com/TrustATrader/) badge
-* [City & Guilds NPTC](https://www.nptc.org.uk/) logo
 
 ### Responsiveness
 In accordance with best practices, the website was designed mobile first (portrait orientation with screen heights of 621px and more).  For the main site structure, screen-size-dependent responsive styling was implemented using the Bootstrap grid system.  The same screen breakpoint dimensions were then employed for all custom CSS added.  
@@ -462,14 +438,14 @@ Under the thank you message and links to 'Bob's' social media profiles, is a but
 
 ### Tools
 
-* [GitHub](https://github.com/)
+* [Git](https://github.com/)
 * [VSCode](https://code.visualstudio.com/)
 * [Balsamiq](https://balsamiq.com/)
 * [W3C HTML Validation Service](https://validator.w3.org/#validate_by_input)
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input)
 * [Autoprefixer CSS online](https://autoprefixer.github.io/)
 * [Font Awesome](https://fontawesome.com/)
-* [Bootstrap v5.3.7](https://getbootstrap.com/)
+* [Bootstrap](https://getbootstrap.com/)
 * [Font Pair](https://www.fontpair.co/all)
 * [WebAim Contrast Tool](https://webaim.org/resources/contrastchecker/)
 * [Coolors](https://coolors.co/)
@@ -482,8 +458,6 @@ Under the thank you message and links to 'Bob's' social media profiles, is a but
 * [WAVE Accessibility Evaluation Tool](https://wave.webaim.org/)
 * [Fireshot Capture](https://getfireshot.com/)
 * [Lighthouse](https://developer.chrome.com/docs/lighthouse)
-* [Chrome dev tools](https://developer.chrome.com/docs/devtools)
-* [Edge dev tools](https://learn.microsoft.com/en-us/microsoft-edge/devtools/overview)
 * [Markdown ToC](http://ecotrust-canada.github.io/markdown-toc)
 
 [Back to top](#mow-and-more)
@@ -496,15 +470,15 @@ Bugs identified while writing the code.
 
 |**Bug**|**Status**|**Description**|**Steps to Resolve**|
 |---|---|---|---|
-|Expanded navigation on mobile not collapsing when Contact button is selected| fixed| When the contact button is selected the navigation menu remained open despite the custom JS code added (supplied from Code Institute during Boardwalk Games project)| Add the 'nav-link' class to the button.  A special ID also required then so that the button is styled as a button and not as a hyperlink|
-|Gardener portrait image not displaying in about section| fixed| Gardener portrait added as a background image to a `div`; in the about section with height = width and 50% radius. None of this was displaying on the website| Typo in custom class used to identify the `div` in style.css |
-|Formatting the carousel with rounded corners| fixed| For consistency of image styling throughout the page the carousel images need to have the same border radius as service card images.| Apply custom CSS style to all `img` which are descendants of the About section (with ID #about).  Applying styling to #about descendants with class '.carousel-item' did not work.|
-|Date and costs not spaced evenly at the base of service cards| fixed| When written as two `span` groups the date icon and text next to the price icon and text did not display equally spaced along the bottom of the service cards.| Re-write this part of the code as two `div`s and add them to a parent `div` with flexbox styling `justify-content: space-evenly`|
-|Phone number field in contact form accepting text input| fixed| When using `input type="tel"` it was possible to submit the form with text (rather than numbers) in the Phone field of the contact form.| Change to `input type="number"`.  Note `type="tel"` is not recognised by all browsers.|
-|UX warning from Chrome Dev tools: form input fields do not have autocomplete enabled|fixed |With some browsers on some devices, without `autocomplete` attribute being defined, the form might be incorrectly completed| Add the `autocomplete` atribute too name, phone number, email and address fields of the form |
+|Expanded navigation on mobile not collapsing when Contact button is selected| Fixed| When the contact button is selected the navigation menu remained open despite the custom JS code added (supplied from Code Institute during Boardwalk Games project)| Add the 'nav-link' class to the button.  A special ID also required then so that the button is styled as a button and not as a hyperlink|
+|Gardener portrait image not displaying in about section| Fixed| Gardener portrait added as a background image to a `div`; in the about section with height = width and 50% radius. None of this was displaying on the website| Typo in custom class used to identify the `div` in style.css |
+|Formatting the carousel with rounded corners| Fixed| For consistency of image styling throughout the page the carousel images need to have the same border radius as service card images.| Apply custom CSS style to all `img` which are descendants of the About section (with ID #about).  Applying styling to #about descendants with class '.carousel-item' did not work.|
+|Date and costs not spaced evenly at the base of service cards| Fixed| When written as two `span` groups the date icon and text next to the price icon and text did not display equally spaced along the bottom of the service cards.| Re-write this part of the code as two `div`s and add them to a parent `div` with flexbox styling `justify-content: space-evenly`|
+|Phone number field in contact form accepting text input| Fixed| When using `input type="tel"` it was possible to submit the form with text (rather than numbers) in the Phone field of the contact form.| Change to `input type="number"`.  Note `type="tel"` is not recognised by all browsers.|
+|UX warning from Chrome Dev tools: form input fields do not have autocomplete enabled|Fixed |With some browsers on some devices, without `autocomplete` attribute being defined, the form might be incorrectly completed| Add the `autocomplete` atribute too name, phone number, email and address fields of the form |
 |Lighthouse warning _Found an &lt;h1&gt; tag within an &lt;article&gt;, &lt;aside&gt;, &lt;nav&gt;, or &lt;section&gt; which does not have a specified font-size._ |Fixed|Adding styling css code [suggested](https://developer.mozilla.org/en-US/blog/h1-element-styles/) did not solve the problem| Changing the hero image and `h1` title from a `section` to the `header` resolved the problem|
-|Check boxes in the contact form are not compulsory| not fixed| The desired outcome is that the user needs to select at least one of the service checkboxes that they are interested in to be able to submit the form. | It is not possible to resolve this without the use of extra JS code.  With HTML alone, the only options are to make all checkboxes mandatory (which isn't appropriate as not every user will want to ask about every service) or to use the radio function where a user can only select one option (also not appropriate as users may wish to inquire about both lawn mowing and another job).|
-|Hero image text box too large on short screens such as landscape mobiles and old phones (iPhone 4 and 5)|fixed| Hero title text lies below the navigation bar and extends above the top of the screen | Add responsive styling CSS based on screens with `max-width` less than 620px.|
+|Check boxes in the contact form are not compulsory| Not fixed| The desired outcome is that the user needs to select at least one of the service checkboxes that they are interested in to be able to submit the form. | It is not possible to resolve this without the use of extra JS code.  With HTML alone, the only options are to make all checkboxes mandatory (which isn't appropriate as not every user will want to ask about every service) or to use the radio function where a user can only select one option (also not appropriate as users may wish to inquire about both lawn mowing and another job).|
+|Hero image text box too large on short screens such as landscape mobiles and old phones (iPhone 4 and 5)|Fixed| Hero title text lies below the navigation bar and extends above the top of the screen | Add responsive styling CSS based on screens with `max-width` less than 620px.|
 
 [Back to top](#mow-and-more)
 
@@ -717,14 +691,13 @@ For the browsers tested, the results were only unacceptable for Windows Internet
 Based on industry standard protocol the Mow and More website was deployed on Github pages in the early stages of development. To deploy the project on Github pages:
 
 * Visit the Mow and More repository
-* From top menu select 'Settings'
-* From the left hand menu select 'Pages'
-* Choose to Deploy from a branch and select 'Main'
+* From top menu select **Settings**
+* From the left hand menu select **Pages**
+* Choose to Deploy from a branch and select **Main**
 * Save changes.
 
 The website is live here: [https://lbwright22ci.github.io/mow-and-more](https://lbwright22ci.github.io/mow-and-more)
 
-Any changes made to the code are pushed to Github from VSCODE (or another IDE) and will be automatically deployed to the live site.
 
 ### To fork the project
 
@@ -732,18 +705,18 @@ If desired the website code can be changed without affecting the current live si
 
 To fork the project:
 * Locate the Mow and More repository on Github.
-* Click on 'Fork' at the top right of the page.
+* Click on **Fork** at the top right of the page.
 * Follow the instructions to name or add a description to the new fork.
-* Select 'Create fork'
+* Select **Create fork**
 
 ### To clone the project
 
 To clone the Mow and More repository:
 * Locate the Mow and More repository on Github.
-* Click on the green 'Code' button.
+* Click on the green **Code** button.
 * Copy the URL to clipboard.
 * Open your desired IDE in the correct folder.
-* In the terminal enter 'git clone' plus the your copied URL.
+* In the terminal enter **git clone** plus the your copied URL.
 
 
 [Back to top](#mow-and-more)
@@ -756,7 +729,7 @@ To clone the Mow and More repository:
 * Text for website generated in part using ChatGPT
     * [ChatGPT](https://chatgpt.com/)
 
-* Images
+* Images (see [below](#image-credits) for full details)
     * [IconScout](https://iconscout.com)
     * [Pixabay](https://pixabay.com)
     * [FreePix](https://www.freepik.com/)
@@ -777,5 +750,25 @@ To clone the Mow and More repository:
     * [W3 Schools](https://www.w3schools.com/) 
     * [Code Institute](https://learn.codeinstitute.net/)
     * [mdn web docs](https://developer.mozilla.org/)
+
+### Image Credits
+
+#### Favicon
+* Gardener and spade outline from [Icon Scout](https://iconscout.com/icons/gardener) designed by [Rank Sol](https://iconscout.com/contributors/promotion-king).  The outline changed to website dark green (#264D32) for consistent branding.
+* Image converted and Favicon code generated by [Favicon.io](https://favicon.io/).
+
+#### Images sourced from stock files
+* Hero image of plant pots with watering can from [FreePik](https://www.freepik.com/)(author unknown)
+* Lawn mowing image by [Rudy and Peter Skitterians](https://pixabay.com/users/clickerhappy-324082/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=384589") from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=384589)
+* Weeding image by [Couleur](https://pixabay.com/users/couleur-1195798/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3296781) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=384589)
+* Hedge and bush cutting image by [Alexa](https://pixabay.com/users/alexas_fotos-686414/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=972972) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=384589)
+* Pressure washing image by [Tomasz](https://stock.adobe.com/uk/contributor/200738455/tomasz-zajda) from [Stock Adobe](https://stock.adobe.com)
+* Portrait shot of a gardener holding a plant in a pot from [FreePix](https://www.freepik.com/) (author unknown).
+
+#### Images for accreditation section
+The badges and awards/accreditations in the footer of the website are fictional.  Images were sourced for free from:
+* [Check-a-trade](https://pureecosolutions.co.uk/checkatrade-logo/) logo 
+* [Trust a Trader](https://www.facebook.com/TrustATrader/) badge
+* [City & Guilds NPTC](https://www.nptc.org.uk/) logo
 
 [Back to top](#mow-and-more)
