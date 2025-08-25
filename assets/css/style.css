@@ -24,18 +24,20 @@
     /* pale tan*/
     --primary-color: #302118;
     /*dark brown*/
+    --white-text:#fff;
 }
 
 /* Generic style rules*/
+html{
+    font-size:10px;
+}
+
 body {
     font-family: var(--primary-font);
     background-color: var(--primary-background-color);
     color: var(--primary-color);
     margin-top: 66px;
-}
-
-html{
-    font-size:16px;
+    font-size: 16px;
 }
 
 h1,
@@ -262,7 +264,7 @@ h3 {
 }
 
 #hero-text-background {
-    background-color: #F0FFFF9B;
+    background-color: rgba(240, 255, 255, 0.608);
     position: absolute;
     padding: 1.25rem;
     bottom: 6.25rem;
@@ -338,7 +340,7 @@ h3 {
     border-radius: 0.3125rem;
 }
 #about #carousel-garden .fa-solid{
-    color:white;
+    color:var(--white-text);
     opacity: 0.8;
     font-size:2rem;
     margin-right:0;
@@ -567,14 +569,8 @@ h3 {
     }
 
     /* Services section*/
-    #service-card-2 .card-body,
-    #service-card-1 .card-body {
+    .service-card .card-body {
         min-height: 368px;
-    }
-
-    #service-card-3 .card-body,
-    #service-card-4 .card-body {
-        min-height: 320px;
     }
 
     /* Testimonials section*/
@@ -627,13 +623,7 @@ h3 {
     }
 
     /* Services section styling*/
-    #service-card-2 .card-body,
-    #service-card-1 .card-body {
-        min-height: 298px;
-    }
-
-    #service-card-3 .card-body,
-    #service-card-4 .card-body {
+    .service-card .card-body {
         min-height: 298px;
     }
 
@@ -675,13 +665,7 @@ h3 {
     }
 
     /* Services section styling*/
-    #service-card-2 .card-body,
-    #service-card-1 .card-body {
-        min-height: 275px;
-    }
-
-    #service-card-3 .card-body,
-    #service-card-4 .card-body {
+    .service-card .card-body {
         min-height: 275px;
     }
 
@@ -708,10 +692,7 @@ h3 {
     }
 
     /* Services section styling*/
-    #service-card-2 .card-body,
-    #service-card-1 .card-body,
-    #service-card-3 .card-body,
-    #service-card-4 .card-body {
+    .service-card .card-body {
         min-height: 371px;
     }
 
